@@ -5,14 +5,14 @@ sidebar:
   order: 1
 ---
 
-O módulo de **Preferências** centraliza todas as configurações do sistema, organizadas por categoria. Acesse em **Preferências** no menu lateral.
+O módulo de **Preferências** centraliza as configurações do sistema, organizadas por categoria. Acesse em **Preferências** no menu lateral.
 
 ## Configurações Essenciais (Primeiro Acesso)
 
 Antes de iniciar as operações, configure obrigatoriamente:
 
-1. **Comunidade** — dados fiscais da empresa (CNPJ, regime tributário, endereço fiscal)
-2. **Certificado Digital** — obrigatório para emissão de NF-e e NFC-e
+1. **Comunidade** — dados fiscais da empresa, como CNPJ, regime tributário e endereço fiscal
+2. **Certificado Digital** — necessário para emissão de NF-e e NFC-e
 3. **Armazém** — ao menos um armazém para controle de estoque
 4. **Cenário Tributário** — regras de impostos para os produtos comercializados
 5. **Conta Financeira** — ao menos um caixa ou conta bancária para o módulo financeiro
@@ -26,6 +26,7 @@ Antes de iniciar as operações, configure obrigatoriamente:
 | CFOP | Código Fiscal de Operações e Prestações |
 | CEST | Código de Substituição Tributária |
 | Natureza de Operação | Tipos de operações fiscais |
+| NFe | Configurações de emissão da Nota Fiscal Eletrônica |
 
 ## Configurações Financeiras
 
@@ -56,6 +57,9 @@ Antes de iniciar as operações, configure obrigatoriamente:
 | Configuração | Descrição |
 |-------------|-----------|
 | Suprimentos | Parâmetros gerais de suprimentos |
+| Ordens de Compra | Configurações do fluxo de compra |
+| Ordens de Venda | Configurações do fluxo de venda |
+| Separação | Regras para separação de pedidos |
 
 ## Configurações Comerciais
 
@@ -63,16 +67,23 @@ Antes de iniciar as operações, configure obrigatoriamente:
 |-------------|-----------|
 | Marcas | Marcas dos produtos |
 | Tags | Etiquetas para classificação |
+| Modelos de Etiquetas | Modelos usados na criação de etiquetas |
 
 ## Configurações de Cadastro
 
 | Configuração | Descrição |
 |-------------|-----------|
 | Cadastros | Parâmetros de cadastro de entidades |
+| Dados da Empresa | Informações cadastrais e fiscais da empresa |
+| Configuração de Cadastro | Regras para cadastros de usuários e permissões |
 
 ## Configurações do Sistema
 
 | Configuração | Descrição |
 |-------------|-----------|
 | Papéis de Usuário | Definição de permissões por perfil |
-| Provedores de Comunicação | Configuração de e-mail e SMS |
+| Provedores de Comunicação | Configuração de e-mail, SMS e WhatsApp |
+| Interface do Usuário | Preferências visuais do sistema |
+| Envio de Arquivos | Parâmetros de envio e recebimento de arquivos |
+| Usuário | Preferências da conta do usuário logado |
+| Eventos de Webhook | Consulta dos eventos enviados pelo sistema |

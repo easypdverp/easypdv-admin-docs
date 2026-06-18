@@ -5,65 +5,65 @@ sidebar:
   order: 1
 ---
 
-O **Gerenciador de Arquivos** permite enviar, visualizar, baixar e remover arquivos armazenados no Despensinha ERP. Ele oferece uma visao centralizada de todos os arquivos do sistema, com estatisticas de armazenamento e atividade.
+O **Gerenciador de Arquivos** permite enviar, visualizar, baixar e remover arquivos armazenados no Despensinha ERP. Ele oferece uma visão centralizada de todos os arquivos do sistema, com estatísticas de armazenamento e atividade.
 
-## Estatisticas de Armazenamento
+## Estatísticas de Armazenamento
 
-Na parte superior da pagina, quatro cartoes exibem um resumo do uso de armazenamento:
+Na parte superior da página, quatro کارتões exibem um resumo do uso de armazenamento:
 
-| Cartao | Descricao |
+| Cartão | Descrição |
 |--------|-----------|
-| Total de Arquivos | Quantidade total de arquivos armazenados, com percentual de crescimento no mes |
-| Espaco Utilizado | Volume de armazenamento consumido em GB e percentual do limite disponivel |
-| Arquivos Temporarios | Quantidade de arquivos temporarios, com indicacao de necessidade de limpeza |
-| Uploads Hoje | Quantidade de arquivos enviados no dia, com indicador de nivel de atividade |
+| Total de Arquivos | Quantidade total de arquivos armazenados, com percentual de crescimento no mês |
+| Espaço Utilizado | Volume de armazenamento consumido em GB e percentual do limite disponível |
+| Arquivos Temporários | Quantidade de arquivos temporários, com indicação de necessidade de limpeza |
+| Uploads Hoje | Quantidade de arquivos enviados no dia, com indicador de nível de atividade |
 
-Abaixo dos cartoes, dois graficos complementam a visao:
+Abaixo dos cartões, dois gráficos complementam a visão:
 
-| Grafico | Descricao |
+| Gráfico | Descrição |
 |---------|-----------|
-| Distribuicao por Tipo | Grafico mostrando a proporcao entre tipos de arquivo (imagem, documento) |
-| Atividade Recente | Grafico com o volume de uploads nos ultimos sete dias |
+| Distribuição por Tipo | Gráfico mostrando a proporção entre tipos de arquivo (imagem, documento) |
+| Atividade Recente | Gráfico com o volume de uploads nos últimos sete dias |
 
 ## Lista de Arquivos
 
 A tabela principal exibe todos os arquivos armazenados no sistema.
 
-| Coluna | Descricao |
+| Coluna | Descrição |
 |--------|-----------|
-| Arquivo | Nome do arquivo com miniatura (para imagens) e extensao |
-| Tipo | Classificacao do arquivo (Imagem ou Documento) |
+| Arquivo | Nome do arquivo com miniatura (para imagens) e extensão |
+| Tipo | Classificação do arquivo (Imagem ou Documento) |
 | Tamanho | Tamanho do arquivo em Bytes, KB, MB ou GB |
-| Data de Envio | Data e hora do upload, com indicacao de tempo relativo |
+| Data de Envio | Data e hora do upload, com indicação de tempo relativo |
 
-## Acoes Disponiveis
+## Ações Disponíveis
 
-| Acao | Descricao |
+| Ação | Descrição |
 |------|-----------|
 | Enviar Arquivo | Abre o modal de upload para enviar novos arquivos |
 | Download | Baixa o arquivo selecionado |
-| Remover | Exclui o arquivo selecionado apos confirmacao |
+| Remover | Exclui o arquivo selecionado após confirmação |
 | Exportar | Exporta a lista de arquivos em formato PDF ou CSV |
 | Atualizar | Recarrega a lista de arquivos |
 
 ## Como Enviar um Arquivo
 
 1. Acesse **Gerenciador de Arquivos** no menu do sistema
-2. Clique no botao **Enviar Arquivo**
+2. Clique no botão **Enviar Arquivo**
 3. No modal de upload, selecione o arquivo desejado
-4. Aguarde o envio ser concluido
-5. O arquivo aparecera automaticamente na lista
+4. Aguarde o envio ser concluído
+5. O arquivo aparece automaticamente na lista
 
 ## Como Baixar um Arquivo
 
 1. Na lista de arquivos, localize o arquivo desejado
-2. Clique no menu de acoes (tres pontos) ao lado do arquivo
+2. Clique no menu de ações (três pontos) ao lado do arquivo
 3. Selecione **Download**
-4. O arquivo sera aberto em uma nova aba do navegador
+4. O arquivo é aberto em uma nova aba do navegador
 
 ## Como Remover um Arquivo
 
 1. Na lista de arquivos, localize o arquivo desejado
-2. Clique no menu de acoes (tres pontos) ao lado do arquivo
+2. Clique no menu de ações (três pontos) ao lado do arquivo
 3. Selecione **Remover**
-4. Confirme a exclusao no modal de confirmacao
+4. Confirme a exclusão no modal de confirmação

@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-O **Espaco do Gestor** e a area do sistema destinada aos usuarios com perfil de gestor. Ele oferece uma visao gerencial simplificada focada no acompanhamento financeiro das comunidades e pontos de venda vinculados.
+O **Espaco do Gestor** e a area do sistema destinada aos usuarios com perfil de gestor. Ele oferece uma visao gerencial simplificada, focada no acompanhamento financeiro das comunidades e pontos de venda vinculados.
 
 ## Visao Geral
 
@@ -21,7 +21,7 @@ O painel de filtros permite ajustar a visualizacao dos dados financeiros:
 |--------|-----------|
 | **Comunidade** | Seleciona a comunidade (condominio) para visualizar |
 | **Ponto de Venda** | Filtra por um ponto de venda especifico ou exibe todos |
-| **Periodo** | Define o intervalo de tempo (ultimos 12 meses disponiveis) |
+| **Periodo** | Define o intervalo de tempo com os ultimos 12 meses disponiveis |
 
 Ao trocar a comunidade, o filtro de ponto de venda e redefinido automaticamente.
 
@@ -55,7 +55,7 @@ A tabela lista todas as parcelas de contas a pagar da comunidade selecionada:
 | **Status** | Em aberto, Paga, Atrasada ou Cancelada |
 | **Acoes** | Ver detalhes e enviar comprovante de pagamento |
 
-A tabela possui busca por descricao ou contato, paginacao e filtro por status (abas). E possivel exportar os dados em PDF ou CSV.
+A tabela possui busca por descricao ou contato, paginacao e filtro por status em abas. E possivel exportar os dados em PDF ou CSV. A visualizacao da tabela usa layout em lista.
 
 ### Enviar Comprovante
 
@@ -71,4 +71,27 @@ A tabela possui busca por descricao ou contato, paginacao e filtro por status (a
 
 ## Tabela de Contas a Receber
 
-A tabela de contas a receber funciona de forma identica a tabela de contas a pagar, exibindo as parcelas a receber com as mesmas colunas, filtros e opcoes de exportacao.
+A tabela de contas a receber funciona de forma identica a tabela de contas a pagar, exibindo as parcelas a receber com as mesmas colunas, filtros e opcoes de exportacao. A visualizacao da tabela usa layout em lista.
+
+## Detalhes da Parcela
+
+Ao abrir os detalhes de uma parcela, o sistema exibe as informacoes completas da conta, incluindo dados de vencimento, valor, status e anexos relacionados. Enquanto os dados sao carregados, o modal mostra um indicador de carregamento.
+
+## Envio de Documento
+
+O envio de comprovante aceita os arquivos nos formatos:
+
+| Formato |
+|---------|
+| PDF |
+| JPG |
+| JPEG |
+| PNG |
+| DOC |
+| DOCX |
+
+Depois de selecionar os arquivos, o sistema permite revisar a lista antes do envio. Durante o envio, os botoes ficam desabilitados e um indicador mostra o andamento da operacao.
+
+## Layout da Pagina
+
+O conteudo do **Espaco do Gestor** aparece dentro de uma estrutura padronizada de pagina, com breadcrumb e titulo no topo.
