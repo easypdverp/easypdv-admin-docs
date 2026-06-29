@@ -38,3 +38,11 @@ A listagem de clientes permite filtrar por:
 - Para editar, clique no nome do cliente na listagem
 - Para desativar, use o menu de ações e selecione **Desativar**
 - Clientes desativados não aparecem nas seleções de pedidos de venda
+
+## Contatos do Cliente
+
+A listagem de contatos do cliente exibe a coluna **Telefone** para identificação do contato.
+
+| Campo | Descrição |
+|-------|-----------|
+| Telefone | Número de telefone do contato |

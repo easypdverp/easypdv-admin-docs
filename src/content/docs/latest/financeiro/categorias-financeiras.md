@@ -88,4 +88,4 @@ A listagem pode ser exportada nos formatos **PDF** e **Excel**.
 
 ## Relacao com Lancamentos Financeiros
 
-As categorias financeiras sao utilizadas ao registrar **Contas a Pagar** e **Contas a Receber**, classificando cada lancamento. Elas tambem aparecem na **Visao de Competencia**, permitindo filtrar e analisar os lancamentos por categoria.
+As categorias financeiras sao utilizadas ao registrar **Contas a Pagar** e **Contas a Receber**, classificando cada lancamento. A parcela de cada titulo aparece identificada pelo numero do item na sequencia, ajudando na leitura dos lancamentos parcelados. Elas tambem aparecem na **Visao de Competencia**, permitindo filtrar e analisar os lancamentos por categoria.

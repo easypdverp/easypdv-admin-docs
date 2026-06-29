@@ -14,7 +14,7 @@ O Dashboard possui quatro abas na parte superior da pagina. Clique no nome da ab
 | Aba | Descricao |
 |-----|-----------|
 | **Vendas** | Metricas de desempenho comercial e produtos mais vendidos |
-| **Operacao** | Indicadores operacionais, validade de produtos e tarefas de estoque |
+| **Operacao** | Indicadores operacionais, telemetria de PDVs e tarefas de estoque |
 | **Financeiro** | Visao financeira com fluxo de caixa, lucro e contas |
 | **Mercado** | Funcionalidade em desenvolvimento, sera disponibilizada em breve |
 
@@ -37,6 +37,54 @@ A aba de Vendas exibe os principais indicadores de desempenho comercial do negoc
 ## Aba Operacao
 
 A aba de Operacao apresenta indicadores voltados para a gestao operacional do negocio.
+
+### Telemetria de PDVs
+
+A area de telemetria mostra os pontos de venda em cards com informacoes resumidas de cada PDV. Cada card exibe o status geral do terminal, vendas do dia, conectividade, bateria, estoque e tempo desde a ultima leitura.
+
+| Campo | Descricao |
+|-------|-----------|
+| Status do PDV | Indica se o PDV esta online, offline, com atencao ou em estado critico |
+| Vendas hoje | Total de vendas contabilizadas no dia |
+| Conectividade | Tipo e status de conexao, como Wi-Fi, cabo ou rede movel |
+| Bateria | Nivel de bateria do terminal, quando informado |
+| Estoque | Percentual de estoque disponivel |
+| Ultima leitura | Tempo desde o ultimo envio de telemetria |
+| Informacoes do terminal | Sistema, versao, modelo e versao do aplicativo |
+
+Cada card tambem oferece as acoes abaixo:
+
+| Acao | Descricao |
+|------|-----------|
+| Detalhes | Abre uma janela com informacoes completas de telemetria |
+| Notificar | Abre o envio de notificacao para o PDV |
+| Editar PDV | Acessa a tela de edicao do ponto de venda |
+| Configuracoes do terminal | Acessa a configuracao do terminal vinculado |
+| Reiniciar terminal | Solicita o reinicio do terminal vinculado |
+
+### Janela de detalhes de telemetria
+
+A janela de detalhes mostra as informacoes completas do PDV selecionado.
+
+| Secao | Informacoes exibidas |
+|-------|----------------------|
+| Conectividade | Status, tipo de conexao, nome da rede, sinal, IP e latencia |
+| Hardware | Bateria, carregamento, espaco livre, memoria, CPU e temperatura |
+| Aplicativo | Versao, tempo em funcionamento, ultima sincronizacao, tamanho do catalogo e erros |
+| Transacoes | Quantidade de transacoes concluídas, falhas e receita desde o ultimo envio |
+| Saude | Marcadores de alerta da telemetria |
+| Terminal | Modelo, marca, sistema, serial, MAC e versao |
+
+### Filtros e visualizacao
+
+| Recurso | Descricao |
+|---------|-----------|
+| Busca | Permite localizar PDVs por nome, codigo ou endereco |
+| Filtros | Mostram PDVs em todos os estados, disponiveis ou indisponiveis |
+| Modo painel | Exibe os cards em tela cheia para acompanhamento ao vivo |
+| Atualizacao automatica | Mantem os dados de telemetria atualizados em intervalos regulares |
+
+### Indicadores operacionais
 
 | Indicador | Descricao |
 |-----------|-----------|

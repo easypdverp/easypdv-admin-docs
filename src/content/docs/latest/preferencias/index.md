@@ -33,7 +33,7 @@ Antes de iniciar as operações, configure obrigatoriamente:
 |-------------|-----------|
 | Contas Financeiras | Caixas e contas bancárias do estabelecimento |
 | Bancos | Cadastro de bancos |
-| Contas Bancárias | Dados de contas para conciliação |
+| Contas Bancárias | Dados da conta bancária, incluindo agência, número da conta e dígitos |
 | Gateways de Pagamento | Integrações com maquininhas e meios de pagamento |
 
 ## Configurações de Estoque
@@ -62,7 +62,7 @@ Antes de iniciar as operações, configure obrigatoriamente:
 | Configuração | Descrição |
 |-------------|-----------|
 | Marcas | Marcas dos produtos |
-| Tags | Etiquetas para classificação |
+| Tags | Etiquetas para classificação e definição de layout |
 
 ## Configurações de Cadastro
 
