@@ -25,6 +25,17 @@ Cada operação que afeta o estoque gera uma movimentação registrada:
 
 O sistema suporta múltiplos armazéns. Cada PDV é vinculado a um armazém específico de onde o estoque é baixado nas vendas.
 
+## Abastecimento de Picklist
+
+No fluxo de picklist, o sistema permite iniciar o abastecimento em dois formatos:
+
+| Tipo | Descrição |
+|------|-----------|
+| Abastecer | Realiza apenas o abastecimento dos produtos. |
+| Abastecer + Conferência | Realiza o abastecimento e também informa quantas unidades de cada produto existem no ponto de venda. |
+
+Ao iniciar o abastecimento, escolha o tipo desejado na janela de confirmação. Durante o processo, a tela fica bloqueada até a conclusão da operação.
+
 ## Alertas de Estoque Mínimo
 
 Produtos com estoque abaixo do mínimo configurado são exibidos no dashboard e na listagem do estoque com alerta visual.

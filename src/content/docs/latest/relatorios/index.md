@@ -24,6 +24,19 @@ Acesse **Relatórios → Suprimentos** para visualizar:
 - Posição de estoque atual
 - Compras por fornecedor e produto
 - Perdas e ajustes de inventário
+- Consumo de estoque
+- Estoque abaixo do mínimo
+- Visão financeira do estoque
+- Custo da mercadoria vendida
+
+### Custo da mercadoria vendida
+
+Acesse **Relatórios → Suprimentos → Custo da mercadoria vendida** para acompanhar:
+- Custo total das mercadorias vendidas
+- Custo por período
+- Custo por produto
+- Custo por categoria
+- Comparação entre custo e vendas
 
 ## Relatórios Financeiros
 
@@ -32,6 +45,7 @@ Acesse **Relatórios → Financeiro** para visualizar:
 - Contas a receber por período e cliente
 - Fluxo de caixa realizado vs. projetado
 - Análise de receita e despesa por categoria
+- Balanço patrimonial
 
 ## Exportação
 
