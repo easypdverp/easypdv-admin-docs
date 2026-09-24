@@ -11,7 +11,7 @@ O módulo de **Preferências** centraliza todas as configurações do sistema, o
 
 Antes de iniciar as operações, configure obrigatoriamente:
 
-1. **Comunidade** — dados fiscais da empresa (tipo de pessoa, CNPJ ou CPF, regime tributário, endereço fiscal)
+1. **Comunidade** — dados fiscais da empresa (CNPJ, regime tributário, endereço fiscal)
 2. **Certificado Digital** — obrigatório para emissão de NF-e e NFC-e
 3. **Armazém** — ao menos um armazém para controle de estoque
 4. **Cenário Tributário** — regras de impostos para os produtos comercializados

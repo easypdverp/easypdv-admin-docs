@@ -67,3 +67,20 @@ O código de barras aparece em telas de compra, entrada de NF-e, conferência de
 ### Lançamento de lotes
 
 Ao lançar lotes a partir de pedidos de compra ou notas de entrada, o sistema usa o código de barras e o SKU do fornecedor para localizar o produto correspondente. Isso ajuda a preencher o item certo antes da confirmação do lançamento.
+
+## Conferência de Estoque
+
+A tela de conferência de estoque lista os itens com os campos de situação, quantidade atual e quantidade conferida.
+
+| Campo | Descrição |
+|------|-----------|
+| Situação | Indica o status da conferência do item. |
+| QTD. ATUAL | Mostra a quantidade atual registrada no estoque. |
+| QTD. CONFERIDA | Mostra a quantidade informada na conferência. |
+
+Ao finalizar a conferência, o sistema valida os itens e conclui o processo.
+
+| Ação | Descrição |
+|------|-----------|
+| Finalizar conferência | Conclui a conferência de estoque. |
+| Cancelar | Fecha a janela sem concluir a operação. |

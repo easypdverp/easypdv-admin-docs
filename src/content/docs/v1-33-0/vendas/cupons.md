@@ -22,9 +22,7 @@ Os **Cupons** permitem aplicar descontos em pedidos de venda e no PDV, com contr
 
 ## Aplicação
 
-Cupons são aplicados nos pedidos de venda pelo campo **Código do Cupom** na tela do pedido. O sistema valida automaticamente as condições de uso, como validade, valor mínimo e limite de usos.
-
-Quando o produto ou item não possui código de barras informado, o sistema exibe o campo em branco nos detalhes e nas telas de seleção relacionadas.
+Cupons são aplicados nos pedidos de venda pelo campo **Código do Cupom** na tela de pedido. O sistema valida automaticamente as condições (validade, valor mínimo e limite de usos).
 
 ## Ocorrências de Venda
 
@@ -105,21 +103,3 @@ Na tela de detalhes do planograma, a impressão de etiquetas usa um filtro por p
 | Template | Modelo da etiqueta |
 
 Se houver itens com código de barras inválido, o sistema permite revisar os dados antes da impressão.
-
-### Opções de impressão
-
-| Opção | Descrição |
-|---|---|
-| Todos os produtos | Imprime etiquetas de todos os produtos do planograma |
-| Produtos com alterações recentes | Imprime etiquetas dos produtos conforme o período selecionado |
-
-### Período
-
-Quando a opção **Produtos com alterações recentes** é selecionada, o sistema exibe a escolha do período.
-
-| Período | Descrição |
-|---|---|
-| 7 dias | Considera os produtos com alterações nos últimos 7 dias |
-| 15 dias | Considera os produtos com alterações nos últimos 15 dias |
-| 30 dias | Considera os produtos com alterações nos últimos 30 dias |
-| 60 dias | Considera os produtos com alterações nos últimos 60 dias |
