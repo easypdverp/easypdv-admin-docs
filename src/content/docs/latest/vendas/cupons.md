@@ -34,6 +34,30 @@ O cupom é informado no campo **Código do Cupom** na tela de pedido de venda. O
 | Data de validade | Data limite para uso do cupom |
 | Valor mínimo do pedido | Valor mínimo necessário para aceitar o cupom |
 | Limite de usos | Quantidade máxima de aplicações permitidas |
+| Limite por cliente | Quantidade máxima de usos por cliente |
+
+## Tipo de desconto
+
+O campo **Tipo de desconto** define como o valor é informado no cupom.
+
+| Tipo | Descrição |
+| --- | --- |
+| Percentual | Aplica um desconto em porcentagem sobre o pedido |
+| Fixo | Aplica um desconto em valor monetário |
+
+## Valor do desconto
+
+O campo **Valor do desconto** aceita sempre 2 casas decimais.
+
+| Tipo | Formato |
+| --- | --- |
+| Percentual | Número com 2 casas decimais |
+| Fixo | Valor em dinheiro com 2 casas decimais |
+
+Exemplos:
+
+- **10,00** para desconto fixo de R$ 10,00
+- **15.50** para desconto de 15,50% quando o tipo é percentual
 
 ## Observações
 

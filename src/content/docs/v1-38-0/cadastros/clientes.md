@@ -23,7 +23,7 @@ O cadastro de **Clientes** permite registrar pessoas físicas e jurídicas que r
 1. Acesse **Cadastros → Clientes**
 2. Clique em **Novo Cliente**
 3. Preencha os dados obrigatórios (nome e CPF/CNPJ)
-4. Adicione contatos, endereço e demais informações conforme necessário
+4. Adicione contatos e endereço conforme necessário
 5. Clique em **Salvar**
 
 ## Listagem e Filtros
@@ -33,8 +33,6 @@ A listagem de clientes permite filtrar por:
 - Tags associadas
 - Status (ativo/inativo)
 
-A tela de listagem também exibe o status do cliente com indicação visual.
-
 Na listagem, o nome do cliente é clicável e abre a tela de edição. Também é possível clicar na linha do cliente para acessar os detalhes.
 
 ## Editar e Desativar
@@ -42,33 +40,3 @@ Na listagem, o nome do cliente é clicável e abre a tela de edição. Também �
 - Para editar, clique no nome do cliente na listagem ou selecione a linha
 - Para desativar, use o menu de ações e selecione **Desativar**
 - Clientes desativados não aparecem nas seleções de pedidos de venda
-
-## Contatos do Cliente
-
-Um cliente pode ter contatos vinculados ao cadastro, como pessoas responsáveis pelo atendimento ou recebimento.
-
-Os contatos podem incluir informações como:
-- Nome
-- Telefone
-- E-mail
-- Endereço
-- Anexos
-
-### Anexos
-
-Os contatos do cliente permitem incluir arquivos, como documentos e imagens, para consulta no próprio cadastro.
-
-### Informações complementares
-
-A tela de cadastro do cliente também permite organizar os dados por abas, separando:
-- Contatos
-- Acessos
-- Anexos
-
-Isso facilita a consulta e o preenchimento das informações do cliente.
-
-A listagem de contatos do cliente exibe a coluna **Telefone** para identificação do contato.
-
-| Campo | Descrição |
-|-------|-----------|
-| Telefone | Número de telefone do contato |
