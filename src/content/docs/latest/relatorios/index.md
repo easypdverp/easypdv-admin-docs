@@ -57,8 +57,17 @@ Acesse **Relatórios → Suprimentos** para visualizar:
 
 ### Outros relatórios
 - Ordem de compra
-- Perda de produto
+- Perda de produto e ajustes de inventário
 - Necessidade de compra
+
+### Custo da mercadoria vendida
+
+Acesse **Relatórios → Suprimentos → Custo da mercadoria vendida** para acompanhar:
+- Custo total das mercadorias vendidas
+- Custo por período
+- Custo por produto
+- Custo por categoria
+- Comparação entre custo e vendas
 
 ## Relatórios Financeiros
 
@@ -66,11 +75,12 @@ Acesse **Relatórios → Financeiro** para visualizar:
 
 ### Geral
 - Balancete
+- Balanço patrimonial
 - Demonstração de resultado do exercício (DRE)
 - Fluxo de caixa realizado e projetado
 
 ### Caixa
-- Resumo por categoria
+- Resumo de receitas e despesas por categoria
 - Resumo por cliente ou fornecedor
 
 ### Contas
