@@ -60,7 +60,7 @@ A lista usa visualização em formato de tabela simples e mostra o status com et
 
 ## Notificações Push
 
-A área de **Notificações Push** reúne as notificações enviadas para os aplicativos do sistema. A lista mostra as informações principais de cada item:
+A área de **Notificações Push** reúne as notificações enviadas para os aplicativos do sistema. O acesso depende da permissão de notificações por push. A lista mostra as informações principais de cada item:
 
 | Coluna | Descrição |
 |--------|-----------|

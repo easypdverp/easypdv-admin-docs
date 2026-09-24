@@ -9,7 +9,7 @@ A central de **Relatórios** reúne análises detalhadas das operações do esta
 
 ## Relatórios de Vendas
 
-Acesse **Relatórios → Vendas** para visualizar:
+Acesse **Relatórios → Vendas** para visualizar os painéis disponíveis conforme suas permissões:
 
 ### Geral
 - Resumo geral de vendas
@@ -26,7 +26,9 @@ Acesse **Relatórios → Vendas** para visualizar:
 ### Produtos não encontrados
 - Produtos procurados e não encontrados nas vendas
 
-### Nota fiscal
+### Relatórios de Notas Fiscais
+
+Acesse **Relatórios → Vendas → Notas Fiscais** para visualizar:
 - Consulta por produto
 - Operação
 - Cliente
@@ -48,7 +50,9 @@ Acesse **Relatórios → Suprimentos** para visualizar:
 - Visão financeira do estoque
 - Consumo de produtos e duração do estoque
 
-### Nota de entrada
+### Relatórios de Nota de Entrada
+
+Acesse **Relatórios → Suprimentos → Nota de Entrada** para visualizar:
 - Operação
 - Fornecedor
 - Produto

@@ -5,32 +5,19 @@ sidebar:
   order: 1
 ---
 
-O **Dashboard** é o painel principal do Despensinha ERP. Ele apresenta uma visão consolidada das principais métricas do negócio, organizadas em quatro abas temáticas: **Vendas**, **Operação**, **Financeiro** e **Mercado**. Ao acessar o sistema, o Dashboard é a primeira tela exibida.
+O **Dashboard** é o painel principal do Despensinha ERP. Ele apresenta uma visão consolidada das principais métricas do negócio, organizadas em abas temáticas: **Vendas**, **Operação** e **Financeiro**. Ao acessar o sistema, o Dashboard é uma das áreas principais disponíveis conforme suas permissões.
 
 ## Navegação entre Abas
 
-O Dashboard possui quatro abas na parte superior da página. Clique no nome da aba desejada para alternar entre elas. A aba ativa fica destacada visualmente.
+O Dashboard possui abas na parte superior da página. Clique no nome da aba desejada para alternar entre elas. A aba ativa fica destacada visualmente.
 
 | Aba | Descrição |
 |-----|-----------|
 | **Vendas** | Métricas de desempenho comercial e produtos mais vendidos |
 | **Operação** | Indicadores operacionais, telemetria de PDVs, validade de produtos e tarefas de estoque |
 | **Financeiro** | Visão financeira com fluxo de caixa, lucro e contas |
-| **Mercado** | Informações dos aplicativos e notícias de mercado |
 
 > O acesso a cada aba depende das permissões do usuário. Caso uma aba não apareça, entre em contato com o administrador do sistema.
-
-## Aviso em destaque
-
-Na area superior do Dashboard, o sistema exibe um aviso em destaque com conteudo promocional ou informativo. Esse espaco apresenta uma imagem ou video de apoio, uma mensagem curta e um botao de acesso rapido.
-
-| Campo | Descricao |
-|-------|-----------|
-| Midia de destaque | Exibe um video na faixa superior do Dashboard |
-| Mensagem | Texto promocional ou informativo em destaque |
-| Botao de acesso | Atalho para a lista de produtos |
-
-O botao **Ver meus produtos** leva para a lista de produtos cadastrados.
 
 ## Aba Vendas
 
@@ -134,7 +121,7 @@ A janela de detalhes mostra as informacoes completas do PDV selecionado.
 
 ### Indicadores operacionais
 
-| Indicador | Descricao |
+| Indicador | Descrição |
 |-----------|-----------|
 | Produtos próximos ao vencimento | Lista de produtos com data de validade próxima |
 | Disponibilidade de PDVs | Status de disponibilidade dos pontos de venda |
@@ -170,9 +157,9 @@ A aba Financeiro oferece uma visão completa da saúde financeira do negócio.
 
 Os cards financeiros seguem uma organizacao responsiva e se ajustam em coluna em telas menores.
 
-## Aba Mercado
+## Página inicial: aplicativos e notícias
 
-A aba Mercado reúne as informações do app do cliente e do app operacional.
+A página inicial reúne as informações do app do cliente e do app operacional.
 
 | Área | Descrição |
 |------|-----------|
@@ -208,7 +195,7 @@ O app de compras mostra a identidade visual do cliente e os links das lojas quan
 
 Quando o app ainda está em preparação, a área exibe uma mensagem de acompanhamento e um botão para contato com o suporte. Quando o app não está disponível para publicação, a área apresenta o recurso como uma possibilidade para o cliente.
 
-### Painel Mercado
+### Disponibilidade do aplicativo
 
 | Situação | Descrição |
 |----------|-----------|

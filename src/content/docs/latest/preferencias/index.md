@@ -36,6 +36,8 @@ Antes de iniciar as operações, configure obrigatoriamente:
 | Bancos | Cadastro de bancos |
 | Contas Bancárias | Dados da conta bancária, incluindo agência, número da conta e dígitos |
 | Gateways de Pagamento | Integrações com maquininhas, meios de pagamento e cobrança |
+| Categorias Financeiras | Agrupamentos usados no controle financeiro |
+| Marcadores de Financeiro | Etiquetas para contas a pagar, contas a receber e fluxo de caixa |
 
 ## Configurações de Estoque
 
@@ -51,6 +53,7 @@ Antes de iniciar as operações, configure obrigatoriamente:
 | Métodos de Pagamento | Formas de pagamento aceitas no estabelecimento |
 | Métodos de Recebimento | Configuração de recebimentos |
 | Vendas | Parâmetros gerais de vendas |
+| Marcadores de Vendas | Etiquetas para pedidos e notas fiscais |
 
 ## Configurações de Suprimentos
 
@@ -60,6 +63,7 @@ Antes de iniciar as operações, configure obrigatoriamente:
 | Ordens de Compra | Configurações do fluxo de compra |
 | Ordens de Venda | Configurações do fluxo de venda |
 | Separação | Regras para separação de pedidos |
+| Marcadores de Suprimentos | Etiquetas para ordens de compra, notas de entrada e separação |
 
 ## Configurações Comerciais
 
@@ -67,6 +71,7 @@ Antes de iniciar as operações, configure obrigatoriamente:
 |-------------|-----------|
 | Marcas | Marcas dos produtos |
 | Tags | Etiquetas para classificação e definição de layout |
+| Marcadores de Produtos | Etiquetas para organização de itens |
 | Modelos de Etiquetas | Modelos usados na criação de etiquetas |
 
 ### Editor de tags
@@ -97,7 +102,13 @@ Quando a etiqueta tem código de barras, o sistema usa o formato configurado no 
 | Envio de Arquivos | Parâmetros de envio e recebimento de arquivos |
 | Usuário | Preferências da conta do usuário logado |
 | Eventos de Webhook | Consulta dos eventos enviados pelo sistema |
-
+| Dados da Empresa | Informações fiscais e cadastrais da empresa |
+| Canais de Comunicação | Configuração de comunicação com o sistema |
+| E-mail | Configurações de envio de e-mails |
+| Certificado Digital | Configuração do certificado para emissão fiscal |
+| Estoque | Regras gerais de estoque |
+| Separação | Parâmetros do processo de separação |
+| Emissão Fiscal | Configurações para NF-e e NFC-e |
 
 ### Comunidade
 
@@ -302,3 +313,19 @@ A tela de **Natureza de Operação** organiza as configurações fiscais por aba
 | Alíquota (%) | Percentual do imposto |
 | Alíq. específica (R$/unid) | Valor específico por unidade |
 | Unidade Tributável | Unidade usada no cálculo |
+
+## Configurações de Usuário
+
+| Configuração | Descrição |
+|-------------|-----------|
+| Conta | Dados da conta do usuário logado |
+| Notificações | Preferências de avisos recebidos pelo sino |
+| Sessões | Controle de acessos e sessões do usuário |
+
+### Notificações do usuário
+
+Na área de **Notificações** da conta, cada tipo pode ser ligado ou desligado. As notificações urgentes continuam sendo enviadas.
+
+## Acesso por permissão
+
+As seções de **Preferências** aparecem conforme a permissão do usuário. Quando o usuário não tem acesso a uma opção, ela não é exibida no menu nem nas rotas da tela.

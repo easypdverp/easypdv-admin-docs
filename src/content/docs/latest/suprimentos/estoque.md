@@ -5,7 +5,7 @@ sidebar:
   order: 5
 ---
 
-O módulo de **Estoque** exibe o saldo atual de produtos por depósito e registra as movimentações de entrada e saída.
+O módulo de **Estoque** exibe o saldo atual de produtos por armazém e registra as movimentações de entrada e saída.
 
 ## Consulta de Saldo
 
@@ -13,13 +13,14 @@ Acesse **Suprimentos → Estoque** para visualizar o saldo de cada produto por d
 
 ## Movimentações
 
-Cada operação que afeta o estoque gera uma movimentação registrada:
+Cada operação que afeta o estoque gera uma movimentação registrada.
 
-| Tipo | Origem |
-|------|--------|
-| Entrada | NF-e de Entrada, ajuste manual, conferência de recebimento |
-| Saída | NFC-e, NF-e de Saída, ajuste manual |
-| Transferência | Movimentação entre depósitos |
+| Tipo | Origem | Permissão |
+|------|--------|------------|
+| Entrada | NF-e de Entrada, ajuste manual, conferência de recebimento | Suprimentos → Estoque |
+| Saída | NFC-e, NF-e de Saída, ajuste manual | Suprimentos → Estoque |
+| Transferência | Movimentação entre armazéns | Suprimentos → Estoque |
+| Inventário | Conferência de estoque | Suprimentos → Inventário |
 
 ## Depósitos
 
@@ -35,6 +36,28 @@ No fluxo de picklist, o sistema permite iniciar o abastecimento em dois formatos
 | Abastecer + Conferência | Realiza o abastecimento e também informa quantas unidades de cada produto existem no ponto de venda. |
 
 Ao iniciar o abastecimento, escolha o tipo desejado na janela de confirmação. Durante o processo, a tela fica bloqueada até a conclusão da operação.
+
+## Lançamentos de Estoque
+
+Na área de movimentações, o sistema separa os lançamentos por tipo:
+
+| Tipo | Descrição |
+|------|-----------|
+| Entrada | Registra a entrada de produtos no estoque |
+| Saída | Registra a saída de produtos do estoque |
+| Saldo | Ajusta a quantidade em estoque |
+
+Os botões de ajuste e transferência aparecem conforme a permissão do usuário.
+
+## Lotes e Validades
+
+Os produtos com controle de lote exibem informações de lote e validade.
+
+| Ação | Permissão |
+|------|------------|
+| Adicionar lote | Suprimentos → Lotes |
+| Editar lote | Suprimentos → Lotes |
+| Remover lote | Suprimentos → Lotes |
 
 ## Alertas de Estoque Mínimo
 
@@ -119,3 +142,43 @@ As operações de abastecimento de picklist podem funcionar com conferência jun
 - concluir a operação quando os itens estiverem atendidos.
 
 Quando a picklist está em etapa de abastecimento com conferência, a operação fica disponível para continuidade pela mesma tela.
+
+## Detalhes do Produto
+
+Na tela de detalhes do produto, o sistema exibe abas conforme a permissão do usuário:
+
+| Aba | Exibição |
+|-----|----------|
+| Lançamentos | Movimentações do produto |
+| Reservas | Reservas do produto |
+| Lotes e Validades | Lotes vinculados ao produto |
+| Configurações | Regras de controle do produto |
+
+As ações de transferência, ajuste, exportação e manutenção de lotes ficam disponíveis de acordo com a permissão do usuário.
+
+## Operações de Inventário
+
+A tela **Operações de Inventário** lista tarefas de separação, abastecimento, abastecimento combinado e inventário.
+
+| Tipo | Uso |
+|------|-----|
+| Separação | Separar produtos para uma picklist |
+| Abastecimento | Abastecer produtos no ponto de venda |
+| Abastecimento combinado | Abastecer e conferir a quantidade no ponto de venda |
+| Inventário | Conferência de estoque por operação |
+
+Ao abrir uma operação pelo link da notificação, o sistema leva direto para os detalhes da tarefa.
+
+## Permissões no Estoque
+
+Algumas ações e abas ficam visíveis conforme a permissão do usuário.
+
+| Permissão | Uso |
+|-----------|-----|
+| Suprimentos → Estoque | Consulta de saldo, lançamentos, transferências e exportações |
+| Suprimentos → Ajustes de Estoque | Ajustes, edição de configurações, ações de inventário |
+| Suprimentos → Lotes | Gestão de lotes e validade |
+| Suprimentos → Inventário | Conferência de estoque |
+| Suprimentos → Separação | Separação de picklists |
+| Suprimentos → Abastecimento | Execução de abastecimento |
+| Suprimentos → Abastecimento combinado | Execução de abastecimento com conferência |
