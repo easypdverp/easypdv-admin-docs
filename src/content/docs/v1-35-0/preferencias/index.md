@@ -11,8 +11,8 @@ O módulo de **Preferências** centraliza as configurações do sistema, organiz
 
 Antes de iniciar as operações, configure obrigatoriamente:
 
-1. **Comunidade** — dados fiscais da empresa (tipo de pessoa, CNPJ ou CPF, regime tributário, endereço fiscal)
-2. **Certificado Digital** — obrigatório para emissão de NF-e e NFC-e
+1. **Comunidade** — dados fiscais da empresa, como CNPJ, regime tributário e endereço fiscal
+2. **Certificado Digital** — necessário para emissão de NF-e e NFC-e
 3. **Armazém** — ao menos um armazém para controle de estoque
 4. **Cenário Tributário** — regras de impostos para os produtos comercializados
 5. **Conta Financeira** — ao menos um caixa ou conta bancária para o módulo financeiro
@@ -68,16 +68,6 @@ Antes de iniciar as operações, configure obrigatoriamente:
 | Marcas | Marcas dos produtos |
 | Tags | Etiquetas para classificação |
 | Modelos de Etiquetas | Modelos usados na criação de etiquetas |
-
-### Editor de tags
-
-O editor de tags permite criar e imprimir etiquetas a partir de modelos com texto e código de barras.
-
-Na visualização da etiqueta, o campo **Código** exibe o valor **GTIN/EAN** do produto.
-
-Ao gerar o PDF, o sistema valida o GTIN/EAN somente quando o modelo de etiqueta contém um elemento de código de barras. Modelos que usam apenas texto não exigem validação desse campo.
-
-Quando a etiqueta tem código de barras, o sistema usa o formato configurado no elemento do modelo. Se houver produtos inválidos, o PDF é gerado com os produtos válidos e a lista de erros é retornada para conferência. Se nenhum produto estiver válido, a impressão é bloqueada.
 
 ## Configurações de Cadastro
 

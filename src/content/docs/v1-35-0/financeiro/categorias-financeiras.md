@@ -23,16 +23,16 @@ Acesse **Financeiro -> Categorias Financeiras** para visualizar todos os grupos 
 
 As categorias financeiras seguem uma estrutura de dois níveis:
 
-1. **Grupo** — nível superior que agrupa categorias relacionadas (ex: Despesas Fixas, Receitas Operacionais)
-2. **Categorias** — itens dentro do grupo que classificam os lançamentos (ex: Aluguel, Energia, Vendas)
+1. **Grupo** -- nível superior que agrupa categorias relacionadas (ex: Despesas Fixas, Receitas Operacionais)
+2. **Categorias** -- itens dentro do grupo que classificam os lançamentos (ex: Aluguel, Energia, Vendas)
 
 ## Como Criar um Grupo de Categorias
 
 1. Acesse **Financeiro -> Categorias Financeiras**
 2. Clique no botão **Adicionar**
 3. Preencha:
-   - **Nome** (obrigatório) — nome do grupo (ex: Despesas Fixas)
-   - **Situação** — Ativo ou Inativo
+   - **Nome** (obrigatório) -- nome do grupo (ex: Despesas Fixas)
+   - **Situação** -- Ativo ou Inativo
 4. Na seção **Categorias**, adicione as subcategorias:
    - Clique em **Adicionar** para incluir uma nova categoria
    - Informe o nome da categoria
@@ -89,5 +89,3 @@ A listagem pode ser exportada nos formatos **PDF** e **Excel**.
 ## Relação com Lançamentos Financeiros
 
 As categorias financeiras são utilizadas ao registrar **Contas a Pagar** e **Contas a Receber**, classificando cada lançamento. Elas também aparecem na **Visão de Competência**, permitindo filtrar e analisar os lançamentos por categoria.
-
-Os lançamentos de **Contas a Receber** também podem ser criados a partir de uma **Ocorrência de venda**. Nesse caso, o sistema usa os dados da ocorrência para preencher informações como cliente, ponto de venda, valor, descrição, número do documento e observações.

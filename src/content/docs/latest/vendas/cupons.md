@@ -11,18 +11,35 @@ Os **Cupons** permitem aplicar descontos em pedidos de venda e no PDV, com contr
 
 1. Acesse **Vendas → Cupons**
 2. Clique em **Novo Cupom**
-3. Defina:
-   - Código do cupom
-   - Tipo de desconto (percentual ou valor fixo)
+3. Preencha os dados do cupom:
+   - Código
+   - Tipo de desconto: percentual ou valor fixo
    - Valor do desconto
    - Data de validade
-   - Valor mínimo do pedido (opcional)
-   - Limite de usos (opcional)
-4. Salve
+   - Valor mínimo do pedido, se necessário
+   - Limite de usos, se necessário
+4. Salve o cadastro
 
 ## Aplicação
 
-Cupons são aplicados nos pedidos de venda pelo campo **Código do Cupom** na tela do pedido. O sistema valida automaticamente as condições de uso, como validade, valor mínimo e limite de usos.
+O cupom é informado no campo **Código do Cupom** na tela de pedido de venda. O sistema valida automaticamente as condições configuradas, como validade, valor mínimo e limite de usos.
+
+## Campos do Cupom
+
+| Campo | Descrição |
+|---|---|
+| Código | Identificação usada para aplicar o cupom |
+| Tipo de desconto | Define se o desconto é percentual ou valor fixo |
+| Valor do desconto | Valor aplicado ao pedido |
+| Data de validade | Data limite para uso do cupom |
+| Valor mínimo do pedido | Valor mínimo necessário para aceitar o cupom |
+| Limite de usos | Quantidade máxima de aplicações permitidas |
+
+## Observações
+
+- O cupom pode ser usado em pedidos de venda e no PDV.
+- O sistema só aceita o cupom quando as condições cadastradas são atendidas.
+- Cupons ativos aparecem na listagem com identificação de status.
 
 Quando o produto ou item não possui código de barras informado, o sistema exibe o campo em branco nos detalhes e nas telas de seleção relacionadas.
 

@@ -11,72 +11,45 @@ A central de **Relatórios** reúne análises detalhadas das operações do esta
 
 Acesse **Relatórios → Vendas** para visualizar:
 
-### Geral
 - Resumo geral de vendas
 - Vendas por período
 - Vendas por produto, categoria, cliente e ponto de venda
 - Vendas por operador
 - Ticket médio e quantidade de itens por venda
 - Métodos de pagamento utilizados
-- Produtos não encontrados na leitura de código de barras
-
-### Venda e Financeiro
-- Resumo de vendas com receita, custo, margem bruta e markup
-
-### Produtos não encontrados
-- Produtos procurados e não encontrados nas vendas
-
-### Nota fiscal
-- Consulta por produto
-- Operação
-- Cliente
-- Produto
-- Evolução
-- Partilha de ICMS
+- Indicadores financeiros das vendas, como receita, custo, margem bruta e markup
+- Relatórios de notas fiscais, com visão por produto, cliente, operação, ICMS e evolução no período
 
 ## Relatórios de Suprimentos
 
 Acesse **Relatórios → Suprimentos** para visualizar:
 
-### Estoque
 - Movimentações de estoque por período
 - Posição de estoque atual
 - Entradas e saídas de estoque
-- Maior circulação de itens
-- Itens sem circulação
-- Itens abaixo do mínimo
+- Estoque abaixo do mínimo
+- Produtos sem movimentação
+- Produtos com maior movimentação
+- Consumo e duração do estoque
 - Visão financeira do estoque
-- Consumo de produtos e duração do estoque
-
-### Nota de entrada
-- Operação
-- Fornecedor
-- Produto
-- Evolução
-- Produto por fornecedor
-
-### Outros relatórios
-- Ordem de compra
-- Perda de produto
 - Necessidade de compra
+- Perdas por produtos
+- Compras por fornecedor e produto
+- NF-e de entrada por produto, fornecedor e operação
+- Evolução das notas fiscais de entrada
 
 ## Relatórios Financeiros
 
 Acesse **Relatórios → Financeiro** para visualizar:
 
-### Geral
 - Balancete
-- Demonstração de resultado do exercício (DRE)
-- Fluxo de caixa realizado e projetado
-
-### Caixa
-- Resumo por categoria
-- Resumo por cliente ou fornecedor
-
-### Contas
+- Fluxo de caixa
+- Relatório por categoria
+- Relatório por cliente ou fornecedor
 - Contas a pagar por período, status, fornecedor e categoria
 - Contas a receber por período, status, cliente e categoria
-- Recebimentos
+- Relatório de recebimentos
+- Demonstrativo de Resultado do Exercício (DRE)
 
 ## Exportação
 
