@@ -97,9 +97,9 @@ Para acessar, navegue até **Espaço Contador -> Convites** no menu lateral.
 
 | Coluna | Descrição |
 |--------|-----------|
-| **E-mail** | E-mail do convidado e perfil de acesso |
+| **E-mail** | E-mail do convidado e login do criador do convite |
 | **Status** | Pendente, Aceito, Expirado ou Cancelado |
-| **Criado por** | Nome de quem enviou o convite |
+| **Criado por** | Login de quem enviou o convite |
 | **Validade** | Data de expiração do convite |
 | **Data de Envio** | Data e hora do envio |
 | **Ações** | Copiar link, Reenviar, Cancelar ou Remover |

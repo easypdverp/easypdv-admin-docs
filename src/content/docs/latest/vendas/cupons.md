@@ -140,3 +140,23 @@ Quando a opção **Produtos com alterações recentes** é selecionada, o sistem
 | 15 dias | Considera os produtos com alterações nos últimos 15 dias |
 | 30 dias | Considera os produtos com alterações nos últimos 30 dias |
 | 60 dias | Considera os produtos com alterações nos últimos 60 dias |
+
+## Vendas
+
+Na área de vendas, o sistema exibe informações em listas e consultas para facilitar a operação.
+
+### Pedido de venda
+
+Na lista de pedidos de venda, a coluna **Ponto de Venda** mostra o nome do ponto de venda vinculado ao pedido.
+
+### Nota fiscal de saída
+
+Na lista de notas fiscais de saída, a coluna **Destinatário** mostra o nome do destinatário do documento.
+
+### Ocorrências
+
+Na lista de ocorrências, a coluna **Itens** mostra a quantidade de itens vinculados a cada ocorrência.
+
+### Planograma
+
+Na tela de detalhes do planograma, a lista de itens exibe a coluna de miniatura para identificação visual dos produtos.

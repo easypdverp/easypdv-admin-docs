@@ -5,13 +5,13 @@ sidebar:
   order: 1
 ---
 
-O módulo de **Preferências** centraliza as configurações do sistema, organizadas por categoria. Acesse em **Preferências** no menu lateral.
+O módulo de **Preferências** centraliza todas as configurações do sistema, organizadas por categoria. Acesse em **Preferências** no menu lateral.
 
 ## Configurações Essenciais (Primeiro Acesso)
 
 Antes de iniciar as operações, configure obrigatoriamente:
 
-1. **Comunidade** — dados fiscais da empresa (tipo de pessoa, CNPJ ou CPF, regime tributário, endereço fiscal)
+1. **Comunidade** — dados fiscais da empresa (CNPJ, regime tributário, endereço fiscal)
 2. **Certificado Digital** — obrigatório para emissão de NF-e e NFC-e
 3. **Armazém** — ao menos um armazém para controle de estoque
 4. **Cenário Tributário** — regras de impostos para os produtos comercializados
@@ -26,7 +26,6 @@ Antes de iniciar as operações, configure obrigatoriamente:
 | CFOP | Código Fiscal de Operações e Prestações |
 | CEST | Código de Substituição Tributária |
 | Natureza de Operação | Tipos de operações fiscais |
-| NFe | Configurações de emissão da Nota Fiscal Eletrônica |
 
 ## Configurações Financeiras
 
@@ -57,9 +56,6 @@ Antes de iniciar as operações, configure obrigatoriamente:
 | Configuração | Descrição |
 |-------------|-----------|
 | Suprimentos | Parâmetros gerais de suprimentos |
-| Ordens de Compra | Configurações do fluxo de compra |
-| Ordens de Venda | Configurações do fluxo de venda |
-| Separação | Regras para separação de pedidos |
 
 ## Configurações Comerciais
 
@@ -67,33 +63,16 @@ Antes de iniciar as operações, configure obrigatoriamente:
 |-------------|-----------|
 | Marcas | Marcas dos produtos |
 | Tags | Etiquetas para classificação e definição de layout |
-| Modelos de Etiquetas | Modelos usados na criação de etiquetas |
-
-### Editor de tags
-
-O editor de tags permite criar e imprimir etiquetas a partir de modelos com texto e código de barras.
-
-Na visualização da etiqueta, o campo **Código** exibe o valor **GTIN/EAN** do produto.
-
-Ao gerar o PDF, o sistema valida o GTIN/EAN somente quando o modelo de etiqueta contém um elemento de código de barras. Modelos que usam apenas texto não exigem validação desse campo.
-
-Quando a etiqueta tem código de barras, o sistema usa o formato configurado no elemento do modelo. Se houver produtos inválidos, o PDF é gerado com os produtos válidos e a lista de erros é retornada para conferência. Se nenhum produto estiver válido, a impressão é bloqueada.
 
 ## Configurações de Cadastro
 
 | Configuração | Descrição |
 |-------------|-----------|
 | Cadastros | Parâmetros de cadastro de entidades |
-| Dados da Empresa | Informações cadastrais e fiscais da empresa |
-| Configuração de Cadastro | Regras para cadastros de usuários e permissões |
 
 ## Configurações do Sistema
 
 | Configuração | Descrição |
 |-------------|-----------|
 | Papéis de Usuário | Definição de permissões por perfil |
-| Provedores de Comunicação | Configuração de e-mail, SMS e WhatsApp |
-| Interface do Usuário | Preferências visuais do sistema |
-| Envio de Arquivos | Parâmetros de envio e recebimento de arquivos |
-| Usuário | Preferências da conta do usuário logado |
-| Eventos de Webhook | Consulta dos eventos enviados pelo sistema |
+| Provedores de Comunicação | Configuração de e-mail e SMS |
