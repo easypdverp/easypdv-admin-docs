@@ -10,8 +10,6 @@ A central de **Relatórios** oferece análises detalhadas das operações do est
 ## Relatórios de Vendas
 
 Acesse **Relatórios → Vendas** para visualizar:
-
-### Geral
 - Vendas por período
 - Vendas por produto e categoria
 - Vendas por cliente
@@ -20,62 +18,21 @@ Acesse **Relatórios → Vendas** para visualizar:
 - Métodos de pagamento utilizados
 - Produtos não encontrados na leitura de código de barras
 
-### Venda e Financeiro
-- Resumo de vendas com dados financeiros
-
-### Produtos não encontrados
-- Produtos procurados e não encontrados nas vendas
-
-### Nota fiscal
-- Consulta por produto
-- Operação
-- Cliente
-- Produto
-- Evolução
-- Partilha de ICMS
-
 ## Relatórios de Suprimentos
 
 Acesse **Relatórios → Suprimentos** para visualizar:
-
-### Estoque
 - Movimentações de estoque por período
 - Posição de estoque atual
-- Maior circulação de itens
-- Itens sem circulação
-- Itens abaixo do mínimo
-- Visão financeira do estoque
-- Consumo de produtos
-
-### Nota de entrada
-- Operação
-- Fornecedor
-- Produto
-- Evolução
-- Produto por fornecedor
-
-### Outros relatórios
-- Ordem de compra
-- Perda de produto
-- Necessidade de compra
+- Compras por fornecedor e produto
+- Perdas e ajustes de inventário
 
 ## Relatórios Financeiros
 
 Acesse **Relatórios → Financeiro** para visualizar:
-
-### Geral
-- Balancete
-- Demonstração de resultado do exercício (DRE)
-- Fluxo de caixa realizado e projetado
-
-### Caixa
-- Resumo por categoria
-- Resumo por cliente
-
-### Contas
 - Contas a pagar por período e fornecedor
 - Contas a receber por período e cliente
-- Recebimentos
+- Fluxo de caixa realizado vs. projetado
+- Análise de receita e despesa por categoria
 
 ## Exportação
 
