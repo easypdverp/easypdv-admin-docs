@@ -20,18 +20,6 @@ O Dashboard possui quatro abas na parte superior da página. Clique no nome da a
 
 > O acesso a cada aba depende das permissões do usuário. Caso uma aba não apareça, entre em contato com o administrador do sistema.
 
-## Aviso em destaque
-
-Na area superior do Dashboard, o sistema exibe um aviso em destaque com conteudo promocional ou informativo. Esse espaco apresenta uma imagem ou video de apoio, uma mensagem curta e um botao de acesso rapido.
-
-| Campo | Descricao |
-|-------|-----------|
-| Midia de destaque | Exibe um video na faixa superior do Dashboard |
-| Mensagem | Texto promocional ou informativo em destaque |
-| Botao de acesso | Atalho para a lista de produtos |
-
-O botao **Ver meus produtos** leva para a lista de produtos cadastrados.
-
 ## Aba Vendas
 
 A aba de Vendas exibe os principais indicadores de desempenho comercial do negócio.
@@ -46,42 +34,6 @@ A aba de Vendas exibe os principais indicadores de desempenho comercial do negó
 | Horários de pico | Gráfico mostrando os horários com maior volume de vendas |
 | Formas de pagamento | Distribuição das vendas por forma de pagamento utilizada |
 
-Os cards e graficos da aba de Vendas se adaptam ao tamanho da tela. Em telas menores, os filtros e informacoes ficam organizados em coluna para facilitar a leitura.
-
-### Total de vendas
-
-O card de Total de vendas mostra os valores consolidados do periodo selecionado.
-
-| Campo | Descricao |
-|-------|-----------|
-| Periodo | Selecao de data usada para filtrar os dados do grafico |
-| Valor total | Soma das vendas no periodo |
-| Total de pedidos | Quantidade de pedidos no periodo |
-| Grafico | Evolucao do total de vendas ao longo do tempo |
-
-### Ticket medio
-
-O card de Ticket medio mostra o valor medio por venda no periodo selecionado.
-
-| Campo | Descricao |
-|-------|-----------|
-| Periodo | Selecao de data usada para filtrar os dados do grafico |
-| Ticket medio | Valor medio por venda no periodo |
-| Quantidade de vendas | Total de vendas consideradas no calculo |
-| Grafico | Evolucao do ticket medio ao longo do tempo |
-
-### Produtos mais vendidos
-
-O card de Produtos mais vendidos exibe o ranking dos itens com maior volume de vendas.
-
-| Campo | Descricao |
-|-------|-----------|
-| Periodo | Selecao de data usada para filtrar os produtos exibidos |
-| Vendas totais | Total de vendas consideradas no ranking |
-| Lista | Tabela com os produtos ordenados por desempenho |
-
-A lista de produtos usa rolagem horizontal quando necessario para manter a leitura em telas menores.
-
 ## Aba Operação
 
 A aba de Operação apresenta indicadores voltados para a gestão operacional do negócio.
@@ -93,18 +45,6 @@ A aba de Operação apresenta indicadores voltados para a gestão operacional do
 | Destaques operacionais | Resumo dos principais eventos operacionais |
 | Últimas tarefas de estoque | Histórico das tarefas de estoque mais recentes |
 | Perda de produtos | Indicadores de perdas e desperdício de produtos |
-
-### Disponibilidade de PDVs
-
-O card de disponibilidade de PDVs mostra o percentual de pontos de venda disponiveis no momento.
-
-| Campo | Descricao |
-|-------|-----------|
-| Percentual disponivel | Percentual de PDVs em funcionamento |
-| Status | Indicacao visual da disponibilidade |
-| Resumo | Informacao consolidada para leitura rapida |
-
-As informacoes dessa area ficam organizadas em coluna nas telas menores para manter a visualizacao clara.
 
 ## Aba Financeiro
 
@@ -119,8 +59,6 @@ A aba Financeiro oferece uma visão completa da saúde financeira do negócio.
 | Crescimento financeiro | Gráfico com a evolução financeira ao longo do tempo |
 | Contas a receber | Lista das próximas contas a receber |
 | Contas a pagar | Lista das próximas contas a pagar |
-
-Os cards financeiros seguem uma organizacao responsiva e se ajustam em coluna em telas menores.
 
 ## Aba Mercado
 
