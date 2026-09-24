@@ -24,8 +24,6 @@ Os **Cupons** permitem aplicar descontos em pedidos de venda e no PDV, com contr
 
 Cupons são aplicados nos pedidos de venda pelo campo **Código do Cupom** na tela do pedido. O sistema valida automaticamente as condições de uso, como validade, valor mínimo e limite de usos.
 
-Quando o produto ou item não possui código de barras informado, o sistema exibe o campo em branco nos detalhes e nas telas de seleção relacionadas.
-
 ## Impressão de Etiquetas do Planograma
 
 Na tela de impressão de etiquetas do planograma, é possível escolher quais produtos terão as etiquetas impressas.
