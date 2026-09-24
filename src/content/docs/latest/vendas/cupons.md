@@ -22,4 +22,4 @@ Os **Cupons** permitem aplicar descontos em pedidos de venda e no PDV, com contr
 
 ## Aplicação
 
-Cupons são aplicados nos pedidos de venda pelo campo **Código do Cupom** na tela de pedido. O sistema valida automaticamente as condições (validade, valor mínimo e limite de usos).
+Cupons são aplicados nos pedidos de venda pelo campo **Código do Cupom** na tela de pedido. O sistema valida automaticamente as condições de uso, como validade, valor mínimo e limite de usos.

@@ -5,61 +5,56 @@ sidebar:
   order: 1
 ---
 
-O **Dashboard** e o painel principal do Despensinha ERP. Ele apresenta uma visao consolidada das principais metricas do negocio, organizadas em quatro abas tematicas: **Vendas**, **Operacao**, **Financeiro** e **Mercado**. Ao acessar o sistema, o Dashboard e a primeira tela exibida.
+O **Dashboard** é o painel principal do Despensinha ERP. Ele apresenta uma visão consolidada das principais métricas do negócio, organizadas em abas temáticas: **Vendas**, **Operação** e **Financeiro**. Ao acessar o sistema, o Dashboard é uma das áreas principais disponíveis conforme suas permissões.
 
-## Navegacao entre Abas
+## Navegação entre Abas
 
-O Dashboard possui quatro abas na parte superior da pagina. Clique no nome da aba desejada para alternar entre elas. A aba ativa fica destacada visualmente.
+O Dashboard possui abas na parte superior da página. Clique no nome da aba desejada para alternar entre elas. A aba ativa fica destacada visualmente.
 
-| Aba | Descricao |
+| Aba | Descrição |
 |-----|-----------|
-| **Vendas** | Metricas de desempenho comercial e produtos mais vendidos |
-| **Operacao** | Indicadores operacionais, validade de produtos e tarefas de estoque |
-| **Financeiro** | Visao financeira com fluxo de caixa, lucro e contas |
-| **Mercado** | Funcionalidade em desenvolvimento, sera disponibilizada em breve |
+| **Vendas** | Métricas de desempenho comercial e produtos mais vendidos |
+| **Operação** | Indicadores operacionais, validade de produtos e tarefas de estoque |
+| **Financeiro** | Visão financeira com fluxo de caixa, lucro e contas |
 
-> O acesso a cada aba depende das permissoes do usuario. Caso uma aba nao apareca, entre em contato com o administrador do sistema.
+> O acesso a cada aba depende das permissões do usuário. Caso uma aba não apareça, entre em contato com o administrador do sistema.
 
 ## Aba Vendas
 
-A aba de Vendas exibe os principais indicadores de desempenho comercial do negocio.
+A aba de Vendas exibe os principais indicadores de desempenho comercial do negócio.
 
-| Indicador | Descricao |
+| Indicador | Descrição |
 |-----------|-----------|
-| Cartoes informativos | Resumo geral com metricas de vendas do periodo |
+| Cartões informativos | Resumo geral com métricas de vendas do período |
 | Produtos mais vendidos | Ranking dos produtos com maior volume de vendas |
-| Total de vendas | Grafico com a evolucao do total de vendas ao longo do tempo |
-| Ticket medio | Grafico com a evolucao do valor medio por venda |
+| Total de vendas | Gráfico com a evolução do total de vendas ao longo do tempo |
+| Ticket médio | Gráfico com a evolução do valor médio por venda |
 | Categorias mais vendidas | Ranking das categorias de produtos mais vendidas |
-| Horarios de pico | Grafico mostrando os horarios com maior volume de vendas |
-| Formas de pagamento | Distribuicao das vendas por forma de pagamento utilizada |
+| Horários de pico | Gráfico mostrando os horários com maior volume de vendas |
+| Formas de pagamento | Distribuição das vendas por forma de pagamento utilizada |
 
-## Aba Operacao
+## Aba Operação
 
-A aba de Operacao apresenta indicadores voltados para a gestao operacional do negocio.
+A aba de Operação apresenta indicadores voltados para a gestão operacional do negócio.
 
-| Indicador | Descricao |
+| Indicador | Descrição |
 |-----------|-----------|
-| Produtos proximos ao vencimento | Lista de produtos com data de validade proxima |
+| Produtos próximos ao vencimento | Lista de produtos com data de validade próxima |
 | Disponibilidade de PDVs | Status de disponibilidade dos pontos de venda |
 | Destaques operacionais | Resumo dos principais eventos operacionais |
-| Ultimas tarefas de estoque | Historico das tarefas de estoque mais recentes |
-| Perda de produtos | Indicadores de perdas e desperdicio de produtos |
+| Últimas tarefas de estoque | Histórico das tarefas de estoque mais recentes |
+| Perda de produtos | Indicadores de perdas e desperdício de produtos |
 
 ## Aba Financeiro
 
-A aba Financeiro oferece uma visao completa da saude financeira do negocio.
+A aba Financeiro oferece uma visão completa da saúde financeira do negócio.
 
-| Indicador | Descricao |
+| Indicador | Descrição |
 |-----------|-----------|
-| Visao geral de lucro | Resumo do lucro no periodo selecionado |
-| Resumo financeiro | Grafico com a distribuicao de receitas e despesas |
-| Fluxo de caixa | Grafico com a movimentacao de entradas e saidas |
-| Aging de recebiveis | Analise do envelhecimento das contas a receber |
-| Crescimento financeiro | Grafico com a evolucao financeira ao longo do tempo |
-| Contas a receber | Lista das proximas contas a receber |
-| Contas a pagar | Lista das proximas contas a pagar |
-
-## Aba Mercado
-
-A aba Mercado esta em desenvolvimento e sera disponibilizada em breve com novas funcionalidades de inteligencia de mercado.
+| Visão geral de lucro | Resumo do lucro no período selecionado |
+| Resumo financeiro | Gráfico com a distribuição de receitas e despesas |
+| Fluxo de caixa | Gráfico com a movimentação de entradas e saídas |
+| Aging de recebíveis | Análise do envelhecimento das contas a receber |
+| Crescimento financeiro | Gráfico com a evolução financeira ao longo do tempo |
+| Contas a receber | Lista das próximas contas a receber |
+| Contas a pagar | Lista das próximas contas a pagar |

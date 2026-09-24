@@ -17,6 +17,7 @@ O cadastro de **Clientes** permite registrar pessoas físicas (CPF) e jurídicas
 | Telefone | Número de telefone |
 | Endereço | Logradouro, número, bairro, cidade, UF, CEP |
 | Tags | Etiquetas para categorização |
+| Status | Situação do cadastro: ativo ou inativo |
 
 ## Como Cadastrar um Cliente
 
@@ -38,3 +39,17 @@ A listagem de clientes permite filtrar por:
 - Para editar, clique no nome do cliente na listagem
 - Para desativar, use o menu de ações e selecione **Desativar**
 - Clientes desativados não aparecem nas seleções de pedidos de venda
+
+## Confirmação de Cadastro por Link
+
+Quando o cliente recebe um link de confirmação, ele abre uma página de confirmação com o nome informado no cadastro.
+
+| Situação | Mensagem exibida |
+|----------|------------------|
+| Cadastro pendente | `Confirmar cadastro de [nome] no EasyPDV?` |
+| Em confirmação | `Confirmando...` |
+| Cadastro confirmado | `Cadastro confirmado. Pode voltar ao terminal.` |
+| Cadastro já confirmado | `Cadastro já confirmado.` |
+| Cadastro expirado ou link inválido | `Link expirado. Cadastre-se de novo no terminal.` |
+
+Na página de confirmação, o cliente clica em **Confirmar** para concluir o cadastro.

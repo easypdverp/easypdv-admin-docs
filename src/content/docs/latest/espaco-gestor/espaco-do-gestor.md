@@ -11,7 +11,7 @@ O **Espaco do Gestor** e a area do sistema destinada aos usuarios com perfil de 
 
 O dashboard do gestor centraliza as informacoes financeiras mais importantes em uma unica tela, permitindo acompanhar contas a pagar, contas a receber, saldo liquido e parcelas vencidas.
 
-Para acessar, navegue ate **Espaco Gestor** no menu lateral. O sistema carrega automaticamente os dados da primeira comunidade vinculada ao gestor.
+Para acessar, navegue ate **Espaco Gestor** no menu lateral. O acesso ao dashboard depende da permissao de visualizacao do espaco do gestor, e o sistema carrega automaticamente os dados da primeira comunidade vinculada ao gestor.
 
 ## Filtros de Visualizacao
 

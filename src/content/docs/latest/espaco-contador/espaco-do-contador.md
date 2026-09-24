@@ -11,6 +11,8 @@ O **Espaco do Contador** e a area do sistema destinada aos usuarios com perfil d
 
 O dashboard e a tela principal do espaco do contador. Ele exibe metricas sobre notas fiscais emitidas e permite acesso rapido a arquivos fiscais.
 
+O acesso ao dashboard depende da permissao de dashboard do espaco do contador.
+
 ### Filtros de Visualizacao
 
 | Filtro | Descricao |
@@ -62,6 +64,8 @@ A pagina de acessos permite visualizar e gerenciar os usuarios vinculados ao esp
 
 Para acessar, navegue ate **Espaco Contador -> Acessos** no menu lateral.
 
+O acesso a esta pagina depende da permissao de acessos do espaco do contador.
+
 ### Tabela de Acessos
 
 | Coluna | Descricao |
@@ -85,6 +89,8 @@ A tabela possui busca por nome ou login. E possivel exportar os dados em PDF ou 
 A pagina de convites permite enviar e gerenciar convites para novos contadores acessarem o sistema.
 
 Para acessar, navegue ate **Espaco Contador -> Convites** no menu lateral.
+
+O acesso a esta pagina depende da permissao de gerenciamento de convites.
 
 ### Enviar Novo Convite
 
