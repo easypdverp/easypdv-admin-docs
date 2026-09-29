@@ -182,3 +182,26 @@ Algumas ações e abas ficam visíveis conforme a permissão do usuário.
 | Suprimentos → Separação | Separação de picklists |
 | Suprimentos → Abastecimento | Execução de abastecimento |
 | Suprimentos → Abastecimento combinado | Execução de abastecimento com conferência |
+
+## Separação de Picklist
+
+Na tela de separação de picklist, cada item mostra a quantidade separada e permite informar valores antes da confirmação.
+
+| Campo | Descrição |
+|------|-----------|
+| Quantidade | Quantidade informada para separação |
+| Status | Indica se o item está separado ou pendente |
+| Ação | Confirma a separação do item |
+
+Os itens com quantidade diferente da quantidade padrão exibem o indicador **Não confirmado** até a confirmação da separação.
+
+### Ações na separação
+
+| Ação | Descrição |
+|------|-----------|
+| Aumentar quantidade | Soma uma unidade à quantidade do item |
+| Diminuir quantidade | Reduz uma unidade da quantidade do item |
+| Editar quantidade | Informa manualmente a quantidade desejada |
+| Marcar como separado | Confirma a separação do item com a quantidade informada |
+
+Durante a separação, o sistema mantém o valor informado até a confirmação do item.
