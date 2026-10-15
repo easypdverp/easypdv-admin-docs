@@ -122,12 +122,27 @@ A tela de **Comunidade** reúne os dados da empresa usados nas rotinas fiscais e
 | Responsável contábil | Dados do contador responsável |
 | Endereço fiscal | Endereço usado nas informações da empresa |
 
+### Empresas
+
+A área de **Empresas** organiza os dados cadastrais por empresa e é usada nas rotinas fiscais e operacionais do sistema.
+
+| Campo | Descrição |
+|------|-----------|
+| Razão social | Nome fiscal da empresa |
+| Nome fantasia | Nome exibido nas telas e documentos |
+| CNPJ | Documento da empresa |
+| CPF | Documento usado quando a empresa é pessoa física |
+| Inscrições e dados cadastrais | Informações complementares do cadastro |
+| Status | Situação da empresa |
+| Contador | Contador vinculado à empresa |
+
 ### Certificado Digital
 
 A tela de **Certificado Digital** permite enviar e remover o arquivo do certificado usado na emissão de documentos fiscais.
 
 | Campo | Descrição |
 |------|-----------|
+| Empresa | Empresa que usa o certificado |
 | Arquivo do certificado | Arquivo utilizado na emissão de NF-e e NFC-e |
 | Senha | Senha de acesso ao certificado |
 | Remover arquivo anterior | Indica se o arquivo cadastrado será substituído no envio |
