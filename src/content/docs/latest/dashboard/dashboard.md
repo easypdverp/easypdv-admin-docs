@@ -19,6 +19,15 @@ O Dashboard possui abas na parte superior da página. Clique no nome da aba dese
 
 > O acesso a cada aba depende das permissões do usuário. Caso uma aba não apareça, entre em contato com o administrador do sistema.
 
+No canto superior direito, o Dashboard exibe um filtro de empresas quando o usuário tem acesso a mais de uma empresa. Esse filtro permite restringir os dados mostrados nas abas do painel.
+
+| Campo | Descrição |
+|-------|-----------|
+| Empresa | Seleção de uma ou mais empresas para filtrar os dados do Dashboard |
+| Seleção múltipla | Permite combinar mais de uma empresa no mesmo filtro |
+| Limpar seleção | Remove o filtro e exibe os dados sem restrição de empresa |
+| Persistência na navegação | A seleção permanece ao trocar entre as abas do Dashboard |
+
 ## Aba Vendas
 
 A aba de Vendas exibe os principais indicadores de desempenho comercial do negócio.
