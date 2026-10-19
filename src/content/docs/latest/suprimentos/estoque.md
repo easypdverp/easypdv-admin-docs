@@ -269,7 +269,7 @@ A tela **Operações de Inventário** lista tarefas de separação, abasteciment
 | Abastecimento | Abastecer produtos no ponto de venda |
 | Abastecimento combinado | Abastecer e conferir a quantidade no ponto de venda |
 
-A conferência de estoque não aparece nesta tela: ela é feita apenas em **Suprimentos → Conferências de estoque** (veja [Inventário](/suprimentos/inventario/)).
+A conferência de estoque não aparece nesta tela: ela é feita apenas em **Suprimentos → Conferências de estoque** (veja [Inventário](../inventario/)).
 
 Ao abrir uma operação pelo link da notificação, o sistema leva direto para os detalhes da tarefa.
 
