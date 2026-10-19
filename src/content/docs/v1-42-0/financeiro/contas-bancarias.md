@@ -5,64 +5,70 @@ sidebar:
   order: 6
 ---
 
-O modulo de **Contas Bancarias** permite cadastrar e gerenciar as contas bancarias do estabelecimento, que sao utilizadas em lancamentos financeiros, boletos e operacoes de Pix.
+O módulo de **Contas Bancárias** permite cadastrar e gerenciar as contas bancárias do estabelecimento, que são utilizadas em lançamentos financeiros, boletos e operações de Pix.
 
-## Acessando as Contas Bancarias
+## Acessando as Contas Bancárias
 
-Acesse **Financeiro -> Contas Bancarias** para visualizar todas as contas cadastradas. A listagem exibe:
+Acesse **Preferências → Finanças → Contas bancárias** para visualizar todas as contas cadastradas. A listagem exibe:
 
-| Coluna | Descricao |
+| Coluna | Descrição |
 |--------|-----------|
 | Nome | Nome identificador da conta |
-| Situacao | Ativo ou Inativo |
-| Conta | Banco, agencia e numero da conta |
-| Data Atualizacao | Data da ultima modificacao |
+| Empresa | Empresa dona da conta (aparece só quando há mais de uma empresa ativa) |
+| Situação | Ativo ou Inativo |
+| Conta | Banco, agência e número da conta |
+| Data Atualização | Data da última modificação |
 
-## Como Cadastrar uma Conta Bancaria
+## Como Cadastrar uma Conta Bancária
 
-1. Acesse **Financeiro -> Contas Bancarias**
-2. Clique no botao **Adicionar**
+1. Acesse **Preferências → Finanças → Contas bancárias**
+2. Clique no botão **Adicionar**
 3. Preencha os dados na aba **Geral**:
-   - **Nome** (obrigatorio) -- nome identificador da conta
-   - **Tipo de conta** (obrigatorio) -- Corrente ou Poupanca
-   - **Banco** (obrigatorio) -- selecione o banco na lista
-   - **Agencia-digito** (obrigatorio) -- numero da agencia e digito verificador
-   - **Conta-digito** (obrigatorio) -- numero da conta e digito verificador
-   - **Conta financeira** (obrigatorio) -- vincule a uma conta financeira do sistema
+   - **Empresa** (obrigatório quando há mais de uma empresa ativa) -- empresa dona da conta; com uma só empresa, a conta fica nela
+   - **Nome** (obrigatório) -- nome identificador da conta
+   - **Tipo de conta** (obrigatório) -- Corrente ou Poupança
+   - **Banco** (obrigatório) -- selecione o banco na lista
+   - **Agência-dígito** (obrigatório) -- número da agência e dígito verificador
+   - **Conta-dígito** (obrigatório) -- número da conta e dígito verificador
+   - **Conta financeira** (obrigatório) -- vincule a uma conta financeira do sistema; a lista mostra só as contas financeiras da empresa escolhida
 4. Opcionalmente, configure a aba **Pix**:
-   - **Tipo de chave** -- E-mail, CPF, CNPJ, Telefone ou Chave Aleatoria
-   - **Chave Pix** -- valor da chave
+   - **Tipo de chave** -- E-mail, CPF, CNPJ, Telefone ou Chave Aleatória
+   - **Chave pix** -- valor da chave
 5. Opcionalmente, configure a aba **Boleto**:
-   - **Instrucoes de impressao** -- ate 4 linhas de instrucoes
-   - **Dias para recebimento** -- numero de dias aceitos apos o vencimento
-   - **Dias para multa** -- numero de dias para aplicar multa
-   - **Taxa mensal de juros** -- percentual de juros ao mes
+   - **Instruções boleto** -- até 4 linhas de instruções
+   - **Nº de dias em que aceita o recebimento** -- número de dias aceitos após o vencimento
+   - **Nº de dias para multa após o vencimento** -- número de dias para aplicar multa
+   - **Taxa mensal de juros** -- percentual de juros ao mês
    - **Multa** -- valor fixo da multa
 6. Clique em **Salvar**
 
-## Editando uma Conta Bancaria
+Ao trocar a **Empresa**, a **Conta financeira** escolhida é limpa se pertencer a outra empresa.
 
-1. Na listagem, clique no menu de acoes da conta desejada
+## Editando uma Conta Bancária
+
+1. Na listagem, clique no menu de ações da conta desejada
 2. Selecione **Editar**
-3. Altere os campos necessarios
-4. Salve as alteracoes
+3. Altere os campos necessários
+4. Salve as alterações
+
+A **Empresa** de uma conta já cadastrada não pode ser alterada.
 
 ## Ativando ou Desativando
 
-1. Na listagem, clique no menu de acoes
+1. Na listagem, clique no menu de ações
 2. Selecione **Ativar** ou **Desativar**
-3. Confirme a operacao
+3. Confirme a operação
 
-Contas inativas nao aparecem como opcao em lancamentos financeiros.
+Contas inativas não aparecem como opção em lançamentos financeiros.
 
-## Removendo uma Conta Bancaria
+## Removendo uma Conta Bancária
 
-1. Na listagem, clique no menu de acoes
+1. Na listagem, clique no menu de ações
 2. Selecione **Remover**
-3. Confirme a exclusao
+3. Confirme a exclusão
 
-## Filtros e Exportacao
+## Filtros e Exportação
 
-Use o filtro de situacao para exibir apenas contas ativas ou inativas.
+Em **Filtrar**, use a **Situação** para exibir apenas contas ativas ou inativas e, quando há mais de uma empresa ativa, a **Empresa** para ver só as contas de uma ou mais empresas.
 
 A listagem pode ser exportada nos formatos **PDF** e **CSV**.

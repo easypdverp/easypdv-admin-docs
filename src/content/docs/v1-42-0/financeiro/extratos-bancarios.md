@@ -38,4 +38,4 @@ A conciliacao bancaria permite comparar os lancamentos do extrato com os registr
 
 ## Relacao com Contas Bancarias
 
-Os extratos bancarios estao vinculados as contas bancarias cadastradas em **Preferencias -> Contas Bancarias**. E necessario ter ao menos uma conta bancaria ativa para utilizar esta funcionalidade.
+Os extratos bancarios estao vinculados as contas bancarias cadastradas em **Preferências → Finanças → Contas bancárias**. E necessario ter ao menos uma conta bancaria ativa para utilizar esta funcionalidade.
