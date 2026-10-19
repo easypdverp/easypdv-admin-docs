@@ -11,10 +11,10 @@ O módulo de **Vendas** cobre todo o processo comercial: criação de pedidos, e
 
 | Seção | Descrição |
 |-------|-----------|
-| [Pedidos de Venda](/vendas/pedidos-de-venda/) | Criação e gestão de pedidos |
-| [NF-e Saída](/vendas/nfe-saida/) | Notas fiscais eletrônicas para vendas B2B |
-| [NFC-e](/vendas/nfce/) | Cupom fiscal eletrônico para vendas no PDV |
-| [Cupons](/vendas/cupons/) | Descontos e promoções |
-| [Planograma](/vendas/planograma/) | Planogramas de vendas |
-| [Recibos Fiscais](/vendas/recibos-fiscais/) | Emissão e gestão de recibos fiscais |
-| [Inutilização NFC-e](/vendas/inutilizacao-nfce/) | Inutilização de numerações de NFC-e |
+| [Pedidos de Venda](./pedidos-de-venda/) | Criação e gestão de pedidos |
+| [NF-e Saída](./nfe-saida/) | Notas fiscais eletrônicas para vendas B2B |
+| [NFC-e](./nfce/) | Cupom fiscal eletrônico para vendas no PDV |
+| [Cupons](./cupons/) | Descontos e promoções |
+| [Planograma](./planograma/) | Planogramas de vendas |
+| [Recibos Fiscais](./recibos-fiscais/) | Emissão e gestão de recibos fiscais |
+| [Inutilização NFC-e](./inutilizacao-nfce/) | Inutilização de numerações de NFC-e |
