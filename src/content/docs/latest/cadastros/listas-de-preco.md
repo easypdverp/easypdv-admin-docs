@@ -60,3 +60,33 @@ A listagem de listas de preco exibe as colunas: nome, situação, quantidade de 
 | Remover | Remove a lista de preco |
 
 As ações em lote permitem ativar, desativar ou remover múltiplas listas simultaneamente.
+
+## Preço de Venda no Cadastro do Produto
+
+O preço de venda padrão do produto fica no campo **Preço** do cadastro, em **Cadastros → Catálogo → Produtos**.
+
+### Formar preço a partir do custo e do markup
+
+Ao lado do campo **Preço**, o botão **Formar preço** (ícone de calculadora) abre um formador de preço:
+
+| Campo | Descrição |
+|-------|-----------|
+| Custo unitário | Custo por unidade de venda. Deve ser maior que zero. |
+| Markup (%) | Percentual aplicado sobre o custo. Deve ser maior ou igual a zero. |
+| Sugerido | Preço calculado: custo unitário × (1 + markup ÷ 100), arredondado em centavos. |
+
+1. Informe o **Custo unitário** e o **Markup (%)**
+2. Clique em **Calcular** (ou pressione Enter em um dos campos)
+3. Confira o valor **Sugerido** e clique em **Aplicar** para levá-lo ao campo **Preço**
+
+Alterar o custo ou o markup apaga a sugestão até um novo cálculo. O formador não grava o custo nem o markup no produto: só o preço aplicado é salvo junto com o cadastro. Se o valor calculado ultrapassar o limite do cadastro, o sistema avisa e não sugere preço.
+
+### Histórico de Preços
+
+Na listagem de produtos, o ícone de gráfico ao lado do preço (ou na coluna de ações) abre o **Histórico de Preços** do produto. O histórico é carregado sempre que a janela é aberta, com as alterações registradas até aquele momento.
+
+| Situação | Exibição |
+|----------|----------|
+| Mais de um preço registrado | Gráfico com a evolução do preço por data; ao passar o mouse, o último ponto aparece como **atual** |
+| Apenas um preço registrado | O preço vigente e a data desde quando vale (**vigente desde**), com o aviso de que o gráfico aparece a partir da primeira alteração |
+| Nenhum preço registrado | Mensagem **Nenhum histórico de preço disponível** |
