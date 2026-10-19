@@ -14,7 +14,7 @@
     { "erpDir": "src/app/pages/notifications/", "docSection": "latest/notificacoes/", "description": "Notifications" },
     { "erpDir": "src/app/pages/file-manager/", "docSection": "latest/gerenciador-de-arquivos/", "description": "File manager" },
     { "erpDir": "src/app/pages/setup/", "docSection": null, "description": "Setup - no direct user doc mapping" },
-    { "erpDir": "src/app/pages/subscription/", "docSection": null, "description": "Subscription - no direct user doc mapping" },
+    { "erpDir": "src/app/pages/subscription/", "docSection": "latest/dashboard/", "description": "Subscription (Início → Minha assinatura)" },
     { "erpDir": "src/app/pages/layout-builder/", "docSection": null, "description": "Layout builder - no direct user doc mapping" },
     { "erpDir": "src/app/modules/", "docSection": null, "description": "Shared modules - no direct user doc mapping" },
     { "erpDir": "src/shared/", "docSection": null, "description": "Shared utilities - no direct user doc mapping" },
