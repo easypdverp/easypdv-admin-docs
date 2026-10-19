@@ -176,6 +176,10 @@ Seção recolhível com **E-mail**, **Telefone**, **WhatsApp**, **Website**, **I
 
 A configuração da nota fiscal eletrônica (NFe) e o certificado digital são definidos para cada empresa. Quando há mais de uma empresa ativa, essas telas exibem o campo **Empresa** no topo; ao trocar a empresa, a tela passa a mostrar a configuração dela. Com uma empresa só, o campo não aparece.
 
+#### CSC da NFC-e
+
+Na configuração da NFe, o campo **Token CSC da NFC-e** nunca exibe o token gravado. Quando a empresa já tem um CSC, o campo fica vazio com a indicação **Configurado — informe um novo token para trocar**. Para trocar o CSC, digite o novo token e salve; se o campo ficar vazio ao salvar, o CSC gravado é mantido.
+
 #### Busca automática de notas fiscais
 
 Na configuração da NFe, a opção **Busca automática de notas fiscais** liga ou desliga, para a empresa escolhida, a busca das NF-e emitidas contra o CNPJ dela. Desligar a opção pausa a busca daquela empresa; ligar de novo a retoma.
