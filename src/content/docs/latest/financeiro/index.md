@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-O módulo **Financeiro** centraliza a gestão das obrigações e receitas do estabelecimento, com controle de contas a pagar, contas a receber, fluxo de caixa, períodos de competência, contas bancárias, extratos bancários e categorias financeiras.
+O módulo **Financeiro** centraliza a gestão das obrigações e receitas do estabelecimento, com controle de contas a pagar, contas a receber, fluxo de caixa, períodos de competência, contas bancárias, extratos bancários, categorias financeiras e repasse a condomínio.
 
 ## Seções
 
@@ -18,3 +18,4 @@ O módulo **Financeiro** centraliza a gestão das obrigações e receitas do est
 | [Contas Bancárias](/financeiro/contas-bancarias/) | Cadastro de contas bancárias |
 | [Extratos Bancários](/financeiro/extratos-bancarios/) | Visualização de extratos bancários |
 | [Categorias Financeiras](/financeiro/categorias-financeiras/) | Configuração de categorias financeiras |
+| [Repasse a Condomínio](./repasse-a-condominio/) | Repasse mensal de cashback e energia devido a cada condomínio |
