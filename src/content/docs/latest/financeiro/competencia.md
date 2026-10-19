@@ -5,63 +5,68 @@ sidebar:
   order: 4
 ---
 
-A **Visao de Competencia** organiza os lancamentos financeiros (contas a pagar e a receber) por periodo de competencia, permitindo uma analise financeira mais precisa independente da data de pagamento.
+A **Visão de Competência** organiza os lançamentos financeiros (contas a pagar e a receber) por período de competência, permitindo uma análise financeira mais precisa independente da data de pagamento.
 
-## Acessando a Visao de Competencia
+## Acessando a Visão de Competência
 
-Acesse **Financeiro -> Competencia** para visualizar os lancamentos organizados por periodo. A listagem exibe:
+Acesse **Finanças → Competências** para visualizar os lançamentos organizados por período. A listagem exibe:
 
-| Coluna | Descricao |
+| Coluna | Descrição |
 |--------|-----------|
-| Documento | Numero do documento e condicao de pagamento |
-| Situacao | Status do lancamento (Pago, Parcialmente Pago, Pendente, Cancelado) |
-| Competencia | Mes/ano de competencia e data de emissao |
-| Tipo | Despesa ou Receita |
-| Descricao | Descricao do lancamento e categoria financeira |
+| Competência | Mês/ano de competência e data de emissão |
+| Situação | Status do lançamento (Pago, Parcialmente Pago, Pendente, Cancelado) |
+| Criação | Data e hora em que o lançamento foi cadastrado |
+| Descrição | Descrição do lançamento e categoria financeira |
 | Cliente | Nome e CPF/CNPJ do cliente ou fornecedor |
-| Valor | Valor total e detalhamento de parcelas |
-| Origem | Origem do lancamento no sistema |
-| Marcadores | Tags associadas ao lancamento |
+| Valor | Valor total e detalhamento de parcelas; em vermelho para despesa e em verde para receita |
+| Origem | Origem do lançamento no sistema |
+| Marcadores | Tags associadas ao lançamento |
 
-## Status dos Lancamentos
+## Status dos Lançamentos
 
-| Status | Descricao |
+| Status | Descrição |
 |--------|-----------|
-| Pago | Lancamento totalmente quitado |
-| Parcialmente Pago | Lancamento com pagamento parcial |
-| Pendente | Lancamento aguardando pagamento |
-| Cancelado | Lancamento cancelado |
+| Pago | Lançamento totalmente quitado |
+| Parcialmente Pago | Lançamento com pagamento parcial |
+| Pendente | Lançamento aguardando pagamento |
+| Cancelado | Lançamento cancelado |
 
-## Tipos de Lancamento
+## Tipos de Lançamento
 
-| Tipo | Descricao |
+| Tipo | Descrição |
 |------|-----------|
-| Despesa | Conta a pagar -- saida financeira |
+| Despesa | Conta a pagar -- saída financeira |
 | Receita | Conta a receber -- entrada financeira |
 
-## Criando Lancamentos
+## Criando Lançamentos
 
-A partir da visao de competencia, e possivel criar novos lancamentos:
+A partir da visão de competência, é possível criar novos lançamentos:
 
-1. Clique no botao de adicionar
-2. Escolha o tipo: **Nova Despesa** ou **Nova Receita**
-3. O sistema redireciona para o formulario de **Contas a Pagar** ou **Contas a Receber**, conforme a escolha
+1. Clique em **Adicionar**
+2. Escolha **Adicionar despesa** ou **Adicionar receita**
+3. O sistema redireciona para o formulário de **Contas a Pagar** ou **Contas a Receber**, conforme a escolha
 
-## Acoes Disponiveis
+## Ações Disponíveis
 
-Para cada lancamento na listagem:
-- **Visualizar** -- acesse os detalhes completos do lancamento
-- **Duplicar** -- crie uma copia do lancamento
-- **Remover** -- exclua o lancamento
+Para cada lançamento na listagem:
+- **Visualizar** -- acesse os detalhes completos do lançamento
+- **Duplicar** -- crie uma cópia do lançamento
+- **Remover** -- exclua o lançamento
 
-## Filtros e Navegacao
+## Detalhes do Lançamento
 
-Use os filtros para buscar por cliente/fornecedor ou numero do documento. As abas de status permitem filtrar por situacao dos lancamentos.
+Em **Visualizar**, a tela de detalhes mostra os blocos **Geral** (competência, descrição, cliente/fornecedor, categoria, código do documento e origem), **Financeiro** (progresso do pagamento, valor total, parcelas, valor pago, em aberto, condição, marcadores e observações), **Parcelas**, **Pagamentos** e **Anexos**.
 
-O total de valores e exibido de forma consolidada na barra de navegacao.
+O bloco **Anexos** reúne os arquivos anexados à conta e às suas parcelas, com **NOME**, **TAMANHO**, **TIPO** e **ÚLTIMA MODIFICAÇÃO** de cada arquivo, e o botão **Baixar** para abri-lo.
+
+## Filtros e Navegação
+
+Use a busca para localizar por cliente/fornecedor ou código do documento. Em **Filtrar**, é possível filtrar por **Período**, **Mês**, **Tipo**, **Empresa** (quando há mais de uma empresa ativa), **Situação**, **Categoria financeira**, **Origem**, **Valor** e **Marcadores**.
+
+As abas **todas**, **receitas** e **despesas** separam os lançamentos por tipo e mostram a quantidade e os totais de cada grupo. Ao lado das abas fica o **Balanço** dos lançamentos filtrados.
 
 A listagem pode ser exportada nos formatos **PDF** e **CSV**.
 
-## Relacao com Contas a Pagar e Receber
+## Relação com Contas a Pagar e Receber
 
-A visao de competencia consolida os lancamentos de **Contas a Pagar** e **Contas a Receber** em uma unica tela, organizados pelo periodo de competencia. Alteracoes feitas em qualquer uma das telas sao refletidas na visao de competencia.
+A visão de competência consolida os lançamentos de **Contas a Pagar** e **Contas a Receber** em uma única tela, organizados pelo período de competência. Alterações feitas em qualquer uma das telas são refletidas na visão de competência.

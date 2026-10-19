@@ -9,7 +9,7 @@ As **Categorias Financeiras** organizam os lançamentos financeiros em grupos e 
 
 ## Acessando as Categorias Financeiras
 
-Acesse **Financeiro -> Categorias Financeiras** para visualizar todos os grupos cadastrados. A listagem exibe:
+Acesse **Preferências → Finanças → Categorias financeiras** para visualizar todos os grupos cadastrados. A listagem exibe:
 
 | Coluna | Descrição |
 |--------|-----------|
@@ -28,7 +28,7 @@ As categorias financeiras seguem uma estrutura de dois níveis:
 
 ## Como Criar um Grupo de Categorias
 
-1. Acesse **Financeiro -> Categorias Financeiras**
+1. Acesse **Preferências → Finanças → Categorias financeiras**
 2. Clique no botão **Adicionar**
 3. Preencha:
    - **Nome** (obrigatório) — nome do grupo (ex: Despesas Fixas)
