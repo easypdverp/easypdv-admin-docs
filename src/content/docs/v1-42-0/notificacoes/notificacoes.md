@@ -23,6 +23,52 @@ As notificações são organizadas por categoria, facilitando a identificação 
 | **Documentos** | Novo documento, atualização de legislação, certificado vencendo, relatório pronto |
 | **Comunicação** | Novo comentário, novo ticket de suporte |
 
+## Sino de notificações
+
+O sino no topo da tela abre um painel com as abas **Notificações** e **Tarefas**. A aba **Notificações** mostra as notificações não lidas, com a contagem (por exemplo, **3 não lidas**) e o botão **Ver todas**, que leva à listagem completa. O painel acompanha o tema claro ou escuro escolhido no sistema.
+
+Cada notificação mostra o ícone do tipo, o título, há quanto tempo foi registrada e um trecho da descrição. Algumas notificações recebem uma etiqueta de situação:
+
+| Situação | Descrição |
+|----------|-----------|
+| **Urgente** | Aviso que pede atenção imediata. O ícone fica em vermelho |
+| **Resolvida** | Aviso urgente cujo problema já foi resolvido. O ícone fica em verde. Quando um aviso urgente é resolvido, prevalece a etiqueta **Resolvida** |
+
+### Abrir a origem da notificação
+
+Ao clicar em uma notificação, ela é marcada como lida e o sistema abre a tela onde o assunto pode ser tratado:
+
+| Origem da notificação | Tela aberta |
+|-----------------------|-------------|
+| Pedido de venda | Detalhes do pedido de venda |
+| Picklist | Detalhes da picklist |
+| Operação de inventário | Detalhes da operação de inventário |
+| Ponto de venda | Edição do ponto de venda |
+| Terminal | Edição do terminal |
+| Pesquisa de satisfação | Resultados da pesquisa de satisfação |
+| Produto | Edição do produto no catálogo |
+| Estoque de produto | Estoque do produto em **Controle de estoques** |
+
+Quando a notificação não tem uma origem dessas, mas está ligada a um ponto de venda, o clique abre a edição desse ponto de venda. Sem origem nem ponto de venda, a notificação é apenas marcada como lida.
+
+### Resumo do dia
+
+A notificação de resumo do dia mostra, no próprio sino, as informações organizadas por ponto de venda: o nome do ponto de venda em destaque e, abaixo, uma linha para cada assunto. O sino exibe as duas primeiras seções; quando há mais, aparece a indicação **Mais N seções**.
+
+Ao clicar no resumo, ele é marcado como lido e abre em uma janela com todas as seções.
+
+Quando uma linha traz o link **Gerar picklist**, ele abre a tela de **Picklists** com o cadastro de uma nova picklist já aberto para o ponto de venda daquela seção. O link aparece tanto no sino quanto na janela do resumo e só abre o cadastro para quem tem acesso à gestão de picklists.
+
+## Preferências de notificação
+
+Cada usuário escolhe quais tipos de notificação quer receber no sino:
+
+1. Abra o menu do usuário e clique em **Configurações da conta**
+2. Acesse a aba **Notificações**
+3. Desligue os tipos que não quer receber; cada tipo tem uma descrição do que ele avisa
+
+As notificações urgentes chegam sempre, mesmo quando o tipo está desligado.
+
 ## Listagem de Notificações
 
 A página de notificações exibe todas as notificações em formato de lista, agrupadas por data de registro. Cada notificação mostra:

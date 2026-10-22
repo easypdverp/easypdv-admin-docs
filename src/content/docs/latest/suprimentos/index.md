@@ -11,9 +11,10 @@ O módulo de **Suprimentos** gerencia toda a cadeia de abastecimento: compras de
 
 | Seção | Descrição |
 |-------|-----------|
-| [Pedidos de Compra](/suprimentos/pedidos-de-compra/) | Solicitações de compra para fornecedores |
-| [NF-e Entrada](/suprimentos/nfe-entrada/) | Recebimento de notas fiscais de fornecedores |
-| [Estoque](/suprimentos/estoque/) | Controle de saldo e movimentações de estoque |
-| [Inventário](/suprimentos/inventario/) | Contagem física e ajuste de estoque |
-| [Picklists](/suprimentos/picklists/) | Listas de separação de produtos |
-| [Tarefas de Estoque](/suprimentos/tarefas-de-estoque/) | Conferências e ajustes de estoque |
+| [Pedidos de Compra](./pedidos-de-compra/) | Solicitações de compra para fornecedores |
+| [Necessidade de compra](./necessidade-de-compra/) | O que comprar e geração das ordens de compra |
+| [NF-e Entrada](./nfe-entrada/) | Recebimento de notas fiscais de fornecedores |
+| [Estoque](./estoque/) | Controle de saldo e movimentações de estoque |
+| [Inventário](./inventario/) | Contagem física e ajuste de estoque |
+| [Picklists](./picklists/) | Listas de separação de produtos |
+| [Tarefas de Estoque](./tarefas-de-estoque/) | Conferências e ajustes de estoque |

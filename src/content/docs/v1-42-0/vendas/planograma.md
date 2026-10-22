@@ -27,9 +27,27 @@ O **Planograma** permite definir quais produtos devem estar disponíveis em cada
 3. Selecione o **Ponto de Venda** desejado
 4. O planograma será criado com o status **Rascunho**
 5. Na tela de detalhes, clique em **Adicionar produto** para incluir itens
-6. Para cada produto, informe o **preço**, a **quantidade desejada** e a **quantidade mínima**
+6. Para cada produto, informe o **Preço unitário**, a **Quantidade desejada**, o **Mínimo crítico** e, se quiser, o **Múltiplo de abastecimento**
 7. Após incluir todos os produtos, clique em **Finalizar planograma**
 8. O planograma passará para o status **Pendente**, aguardando ativação
+
+## Itens do Planograma
+
+Os produtos são incluídos pela janela **Adicionar Item** e alterados pela janela **Editar Item**, com os mesmos campos:
+
+| Campo | Descrição |
+|-------|-----------|
+| Produto | Produto do item (obrigatório) |
+| Preço unitário | Valor de venda do produto no ponto de venda (obrigatório) |
+| Quantidade desejada | Quantidade que o ponto de venda deve ter do produto (obrigatório) |
+| Mínimo crítico | Quantidade a partir da qual o produto é considerado crítico (obrigatório) |
+| Múltiplo de abastecimento | Lote em que o produto é reposto (opcional) |
+
+### Múltiplo de abastecimento
+
+Quando o **Múltiplo de abastecimento** é preenchido, a picklist de abastecimento oferece apenas múltiplos inteiros desse valor. Por exemplo, com múltiplo **6**, a reposição sugerida é de 6, 12, 18 unidades e assim por diante. Em branco, a picklist oferece a falta inteira do produto.
+
+O valor precisa ser um número inteiro maior que zero e não pode ser maior que a **Quantidade desejada**. Caso contrário, o item não é salvo e o campo mostra a mensagem **Múltiplo deve ser maior que zero** ou **Múltiplo não pode ser maior que a quantidade desejada**.
 
 ## Status do Planograma
 

@@ -5,38 +5,39 @@ sidebar:
   order: 8
 ---
 
-A **Inutilizacao de NFC-e** permite invalidar faixas de numeracao de Notas Fiscais de Consumidor Eletronicas que nao foram utilizadas. Esse procedimento e obrigatorio quando ocorrem quebras na sequencia numerica da NFC-e, evitando problemas com a SEFAZ.
+A **Inutilização de NFC-e** permite invalidar faixas de numeração de Notas Fiscais de Consumidor Eletrônicas que não foram utilizadas. Esse procedimento é obrigatório quando ocorrem quebras na sequência numérica da NFC-e, evitando problemas com a SEFAZ.
 
 ## Quando Utilizar
 
-A inutilizacao deve ser feita quando:
+A inutilização deve ser feita quando:
 
-- Houve pulo de numeracao na emissao de NFC-e
-- Numeros foram reservados mas nao chegaram a ser utilizados
-- Falhas no sistema geraram lacunas na sequencia de numeracao
+- Houve pulo de numeração na emissão de NFC-e
+- Números foram reservados mas não chegaram a ser utilizados
+- Falhas no sistema geraram lacunas na sequência de numeração
 
-A SEFAZ exige que todas as lacunas de numeracao sejam formalmente inutilizadas para manter a conformidade fiscal.
+A SEFAZ exige que todas as lacunas de numeração sejam formalmente inutilizadas para manter a conformidade fiscal.
 
 ## Campos Principais
 
 | Campo | Descrição |
 |-------|-----------|
+| Empresa | Empresa dona da numeração a inutilizar. Aparece apenas quando a conta tem mais de uma empresa ativa |
 | Série | Série da NFC-e a ser inutilizada |
-| Número Inicial | Primeiro número da faixa a inutilizar |
-| Número Final | Último número da faixa a inutilizar |
+| Número inicial | Primeiro número da faixa a inutilizar |
+| Número final | Último número da faixa a inutilizar |
 | Justificativa | Motivo da inutilização (mínimo 15 caracteres) |
-| Situação | Status da solicitação (Pendente, Concluída, Cancelada) |
-| Protocolo SEFAZ | Protocolo retornado pela SEFAZ após processamento |
-| Data | Data em que a inutilização foi solicitada |
+
+A numeração da NFC-e é controlada por empresa. Por isso, quando a conta tem mais de uma empresa ativa, o campo **Empresa** é obrigatório. Com uma única empresa ativa, o campo não é exibido e a inutilização é feita para essa empresa.
 
 ## Como Inutilizar Numeração
 
-1. Acesse **Vendas → Inutilização NFC-e**
+1. Acesse **Vendas → Inutilizar NFC-e**
 2. Clique em **Adicionar** (botão +)
-3. Preencha a **Série** da NFC-e
-4. Informe o **Número Inicial** e o **Número Final** da faixa
-5. Escreva a **Justificativa** (mínimo 15 caracteres)
-6. Clique em **Salvar** para enviar a solicitação à SEFAZ
+3. Na janela **Inutilização de numeração**, selecione a **Empresa**, se o campo for exibido
+4. Preencha a **Série** da NFC-e
+5. Informe o **Número inicial** e o **Número final** da faixa
+6. Escreva a **Justificativa** (mínimo 15 caracteres)
+7. Clique em **Salvar** para enviar a solicitação à SEFAZ
 
 ## Status da Inutilização
 
@@ -50,6 +51,6 @@ A SEFAZ exige que todas as lacunas de numeracao sejam formalmente inutilizadas p
 
 A listagem de inutilizações exibe as colunas: situação, numeração (faixa inicial-final), justificativa, data de registro e data de atualização. É possível:
 
-- Filtrar por situação (Pendente, Concluída, Cancelada)
+- Filtrar por situação (**Todos**, **Em andamento**, **Concluído**, **Cancelado**)
 - Ordenar por data
 - Exportar a listagem em PDF ou CSV

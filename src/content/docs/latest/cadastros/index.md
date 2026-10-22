@@ -5,16 +5,36 @@ sidebar:
   order: 1
 ---
 
-O módulo de **Cadastros** centraliza o gerenciamento de todas as entidades do sistema: clientes, fornecedores, funcionários, comunidades, pontos de venda, listas de preço e convites de workspace.
+O módulo de **Cadastros** centraliza o gerenciamento das entidades do sistema. No menu, ele é dividido em **Catálogo**, **Parceiros** e **Operação**.
 
 ## Seções
 
+### Catálogo
+
 | Seção | Descrição |
 |-------|-----------|
-| [Clientes](/cadastros/clientes/) | Cadastro e gestão de clientes (pessoa física e jurídica) |
-| [Fornecedores](/cadastros/fornecedores/) | Cadastro de fornecedores e gestão de contatos |
-| [Funcionários](/cadastros/funcionarios/) | Cadastro de funcionários e atribuição de papéis |
-| [Comunidade](/cadastros/comunidade/) | Configuração das comunidades e organizações |
-| [Ponto de Venda](/cadastros/ponto-de-venda/) | Cadastro e configuração dos PDVs |
-| [Listas de Preço](/cadastros/listas-de-preco/) | Gestão de listas de preço |
-| [Convites](/cadastros/convites/) | Convites de workspace |
+| Produtos | Cadastro de produtos |
+| Categorias | Cadastro de categorias |
+| [Listas de Preço](./listas-de-preco/) | Gestão de listas de preço |
+
+### Parceiros
+
+| Seção | Descrição |
+|-------|-----------|
+| [Clientes](./clientes/) | Cadastro e gestão de clientes (pessoa física e jurídica) |
+| [Fornecedores](./fornecedores/) | Cadastro de fornecedores e gestão de contatos |
+| [Funcionários](./funcionarios/) | Cadastro de funcionários e atribuição de papéis |
+| [Condomínios](./comunidade/) | Cadastro dos condomínios e do acordo financeiro usado no repasse |
+
+### Operação
+
+| Seção | Descrição |
+|-------|-----------|
+| [Pontos de Venda](./ponto-de-venda/) | Cadastro e configuração dos PDVs |
+| Terminais | Cadastro dos terminais |
+
+Cada item do menu aparece conforme as permissões do usuário.
+
+## Convites
+
+Os [Convites](./convites/) de workspace são gerenciados fora do menu de Cadastros, em **Espaço Contador → Gerenciar convites**.
