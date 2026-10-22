@@ -153,8 +153,19 @@ Na tela de detalhes do produto, o sistema exibe abas conforme a permissão do us
 | Reservas | Reservas do produto |
 | Lotes e Validades | Lotes vinculados ao produto |
 | Configurações | Regras de controle do produto |
+| Alertas | Avisos de estoque, lote e ações relacionadas ao produto |
 
 As ações de transferência, ajuste, exportação e manutenção de lotes ficam disponíveis de acordo com a permissão do usuário.
+
+Os alertas podem exibir ações diretas para:
+
+| Ação | Uso |
+|------|-----|
+| Navegar para lote | Acessa a informação relacionada ao lote do produto |
+| Navegar para depósito | Abre a movimentação ou ajuste do depósito relacionado |
+| Criar ordem de compra | Inicia a abertura de uma ordem de compra quando o usuário tem permissão |
+
+Quando uma ação está disponível, o sistema mostra o comando correspondente no alerta conforme a permissão do usuário.
 
 ## Operações de Inventário
 
