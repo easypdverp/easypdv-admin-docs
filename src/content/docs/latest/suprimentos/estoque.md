@@ -153,8 +153,19 @@ Na tela de detalhes do produto, o sistema exibe abas conforme a permissão do us
 | Reservas | Reservas do produto |
 | Lotes e Validades | Lotes vinculados ao produto |
 | Configurações | Regras de controle do produto |
+| Alertas | Avisos de estoque, lote e ações relacionadas ao produto |
 
 As ações de transferência, ajuste, exportação e manutenção de lotes ficam disponíveis de acordo com a permissão do usuário.
+
+Os alertas podem exibir ações diretas para:
+
+| Ação | Uso |
+|------|-----|
+| Navegar para lote | Acessa a informação relacionada ao lote do produto |
+| Navegar para depósito | Abre a movimentação ou ajuste do depósito relacionado |
+| Criar ordem de compra | Inicia a abertura de uma ordem de compra quando o usuário tem permissão |
+
+Quando uma ação está disponível, o sistema mostra o comando correspondente no alerta conforme a permissão do usuário.
 
 ## Operações de Inventário
 
@@ -182,3 +193,26 @@ Algumas ações e abas ficam visíveis conforme a permissão do usuário.
 | Suprimentos → Separação | Separação de picklists |
 | Suprimentos → Abastecimento | Execução de abastecimento |
 | Suprimentos → Abastecimento combinado | Execução de abastecimento com conferência |
+
+## Separação de Picklist
+
+Na tela de separação de picklist, cada item mostra a quantidade separada e permite informar valores antes da confirmação.
+
+| Campo | Descrição |
+|------|-----------|
+| Quantidade | Quantidade informada para separação |
+| Status | Indica se o item está separado ou pendente |
+| Ação | Confirma a separação do item |
+
+Os itens com quantidade diferente da quantidade padrão exibem o indicador **Não confirmado** até a confirmação da separação.
+
+### Ações na separação
+
+| Ação | Descrição |
+|------|-----------|
+| Aumentar quantidade | Soma uma unidade à quantidade do item |
+| Diminuir quantidade | Reduz uma unidade da quantidade do item |
+| Editar quantidade | Informa manualmente a quantidade desejada |
+| Marcar como separado | Confirma a separação do item com a quantidade informada |
+
+Durante a separação, o sistema mantém o valor informado até a confirmação do item.
