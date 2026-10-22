@@ -17,6 +17,7 @@ O acesso ao dashboard depende da permissão de dashboard do espaço do contador.
 
 | Filtro | Descrição |
 |--------|-----------|
+| **Empresa** | Permite escolher uma empresa ativa para filtrar os dados, baixar o SPED Fiscal e gerar o PDF das notas |
 | **Período** | Seleciona o mês de referência entre os últimos 12 meses disponíveis |
 | **Tipo de Nota** | Filtra por tipo: Todas, Cupom fiscal eletrônico (NFC-e), Nota fiscal de entrada (NF-e entrada) ou Nota fiscal de saída (NF-e saída) |
 
@@ -26,10 +27,10 @@ O dashboard exibe quatro cartões com métricas do período:
 
 | Cartão | O que mostra |
 |--------|-------------|
-| **Notas Emitidas** | Total de notas emitidas e variação percentual em relação ao mês anterior |
+| **Notas Emitidas** | Total de notas emitidas e comparação com o mês anterior |
 | **Sucesso** | Quantidade de notas autorizadas e percentual de sucesso |
 | **Negada** | Quantidade de notas negadas e percentual sobre o total |
-| **Valor Total** | Valor monetário total das notas e variação em relação ao mês anterior |
+| **Valor Total** | Valor monetário total das notas e comparação com o mês anterior |
 
 ### Downloads Rápidos
 
@@ -37,6 +38,8 @@ O painel de downloads rápidos oferece duas opções:
 
 - **Baixar SPED Fiscal** — Gera e baixa o arquivo SPED Fiscal do período selecionado
 - **Baixar todas as notas** — Gera e baixa um PDF consolidado com todas as notas do período
+
+Para baixar o SPED Fiscal, o contador escolhe uma empresa ativa no filtro de empresa. O campo **Data do inventário** é usado para preencher o Bloco H do SPED com o estoque dessa data. Quando a data não é informada, o Bloco H sai sem movimento.
 
 Ambos os downloads são processados em segundo plano. O sistema exibe o progresso e disponibiliza o arquivo automaticamente ao concluir.
 
@@ -54,9 +57,10 @@ A tabela lista todas as notas fiscais do período:
 | **Data Emissão** | Data em que a nota foi emitida |
 | **Valor** | Valor total da nota |
 | **Status** | Pendente, Emitida, Autorizada, Negada ou Cancelada |
+| **Empresa** | Empresa vinculada à nota |
 | **Ações** | Baixar PDF (DANFE) e baixar XML |
 
-A tabela possui busca por fornecedor ou número da nota, paginação e filtro por status (abas).
+A tabela possui busca por fornecedor ou número da nota, paginação e filtro por status (abas). Também permite filtrar por empresa e exportar os dados considerando a empresa selecionada.
 
 ## Gerenciar Acessos
 
@@ -96,8 +100,11 @@ O acesso a esta pagina depende da permissao de gerenciamento de convites.
 
 1. Na página de convites, localize o formulário de envio no topo
 2. Informe o **e-mail** do convidado
-3. Clique em **Enviar convite**
-4. O sistema envia um e-mail com o link de aceite ao destinatário
+3. Se houver mais de uma empresa ativa, selecione a **empresa** do contador
+4. Clique em **Enviar convite**
+5. O sistema envia um e-mail com o link de aceite ao destinatário
+
+Cada convite de contador fica vinculado a uma empresa. Quando existe apenas uma empresa ativa, o campo de empresa não aparece e o convite usa essa empresa.
 
 ### Tabela de Convites
 
