@@ -129,6 +129,12 @@ Acesse **Relatórios → Financeiro** para visualizar:
 - Contas a receber por período, status, cliente e categoria
 - Recebimentos
 
+### Entradas recebidas
+- Lista de recebimentos com data, documento, cliente, ponto de venda e forma de pagamento
+- Valores bruto, desconto, taxa e líquido
+- Coluna de taxa com o valor da cobrança
+- Exportação com os campos exibidos na tabela
+
 ## Exportação
 
 Os relatórios podem ser exportados em:
@@ -160,5 +166,16 @@ A maior parte dos relatórios usa filtros para refinar a consulta, como:
 | **Regime** | Filtra a DRE por competência ou caixa |
 | **Comparar meses** | Mostra uma coluna por mês no período da DRE |
 | **Agrupar por** | Define o tipo de agrupamento em relatórios de venda e conversão |
+| **Categoria financeira** | Filtra categorias financeiras ativas |
+| **Forma de pagamento** | Filtra resultados por forma de pagamento |
+| **Adquirente** | Filtra resultados por adquirente |
+| **Taxa** | Exibe o valor da taxa nos recebimentos |
+| **Código de barras** | Apoia a busca em relatórios que consultam itens por leitura |
 
 As tabelas exibem valores numéricos alinhados à direita e, em alguns relatórios, indicadores de status aparecem com etiquetas coloridas para facilitar a leitura. Alguns painéis mostram cards de resumo acima ou abaixo da tabela, com totais do filtro inteiro.
+
+### Busca e exportação em relatórios específicos
+- Em **Curva ABC**, a tabela não usa busca livre e a exportação fica disponível quando a lista está sem filtro de classe.
+- Em **Vendas por hora**, a exportação segue os dados carregados para o período informado.
+- Em **Produtos não encontrados**, a inclusão no planograma usa o item selecionado diretamente na tela.
+- Em **Ocorrências de perda por produto**, a tabela mostra os dados do período, com possibilidade de exportação e filtro por tipo de perda.

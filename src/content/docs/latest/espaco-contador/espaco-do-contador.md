@@ -88,6 +88,8 @@ A tabela possui busca por nome ou login. É possível exportar os dados em PDF o
 - **Remover** — Remove o acesso do usuário ao espaço do contador
 - **Ativar/Desativar** — Alterna o status do acesso entre ativo e inativo
 
+As ações de alteração de senha, remoção e troca de status ficam disponíveis no modal correspondente, conforme a permissão de acessos do espaço do contador.
+
 ## Gerenciar Convites
 
 A página de convites permite enviar e gerenciar convites para novos contadores acessarem o sistema.
@@ -124,3 +126,5 @@ Cada convite de contador fica vinculado a uma empresa. Quando existe apenas uma 
 | **Pendente e válido** | Copiar link, Reenviar, Cancelar |
 | **Expirado ou Cancelado** | Remover |
 | **Aceito** | Nenhuma ação disponível |
+
+As ações de cancelar e remover ficam disponíveis no modal correspondente, conforme a permissão de gerenciamento de convites.

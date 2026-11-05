@@ -5,24 +5,24 @@ sidebar:
   order: 1
 ---
 
-O **Gerenciador de Arquivos** permite enviar, visualizar, baixar e remover arquivos armazenados no Despensinha ERP. Ele oferece uma visão centralizada de todos os arquivos do sistema, com estatísticas de armazenamento e atividade.
+O **Gerenciador de Arquivos** permite enviar, visualizar, baixar e remover arquivos armazenados no Despensinha ERP. Ele reúne em um só lugar a lista de arquivos do sistema, indicadores de armazenamento e gráficos de atividade.
 
 ## Estatísticas de Armazenamento
 
-Na parte superior da página, quatro کارتões exibem um resumo do uso de armazenamento:
+Na parte superior da página, quatro cartões exibem um resumo do uso de armazenamento:
 
 | Cartão | Descrição |
 |--------|-----------|
-| Total de Arquivos | Quantidade total de arquivos armazenados, com percentual de crescimento no mês |
+| Total de Arquivos | Quantidade total de arquivos armazenados, com indicação do crescimento no mês |
 | Espaço Utilizado | Volume de armazenamento consumido em GB e percentual do limite disponível |
 | Arquivos Temporários | Quantidade de arquivos temporários, com indicação de necessidade de limpeza |
-| Uploads Hoje | Quantidade de arquivos enviados no dia, com indicador de nível de atividade |
+| Uploads Hoje | Quantidade de arquivos enviados no dia, com indicação do nível de atividade |
 
 Abaixo dos cartões, dois gráficos complementam a visão:
 
 | Gráfico | Descrição |
 |---------|-----------|
-| Distribuição por Tipo | Gráfico mostrando a proporção entre tipos de arquivo (imagem, documento) |
+| Distribuição por Tipo | Gráfico com a proporção entre arquivos de imagem, documento e outros tipos |
 | Atividade Recente | Gráfico com o volume de uploads nos últimos sete dias |
 
 ## Lista de Arquivos
@@ -31,8 +31,8 @@ A tabela principal exibe todos os arquivos armazenados no sistema.
 
 | Coluna | Descrição |
 |--------|-----------|
-| Arquivo | Nome do arquivo com miniatura (para imagens) e extensão |
-| Tipo | Classificação do arquivo (Imagem ou Documento) |
+| Arquivo | Nome do arquivo com miniatura para imagens e extensão |
+| Tipo | Classificação do arquivo, como Imagem, Vídeo, Documento, Arquivo compactado ou Desconhecido |
 | Tamanho | Tamanho do arquivo em Bytes, KB, MB ou GB |
 | Data de Envio | Data e hora do upload, com indicação de tempo relativo |
 
@@ -57,13 +57,13 @@ A tabela principal exibe todos os arquivos armazenados no sistema.
 ## Como Baixar um Arquivo
 
 1. Na lista de arquivos, localize o arquivo desejado
-2. Clique no menu de ações (três pontos) ao lado do arquivo
+2. Clique no menu de ações ao lado do arquivo
 3. Selecione **Download**
 4. O arquivo é aberto em uma nova aba do navegador
 
 ## Como Remover um Arquivo
 
 1. Na lista de arquivos, localize o arquivo desejado
-2. Clique no menu de ações (três pontos) ao lado do arquivo
+2. Clique no menu de ações ao lado do arquivo
 3. Selecione **Remover**
 4. Confirme a exclusão no modal de confirmação

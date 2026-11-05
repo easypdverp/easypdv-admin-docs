@@ -75,7 +75,41 @@ A tabela de contas a receber funciona de forma identica a tabela de contas a pag
 
 ## Detalhes da Parcela
 
-Ao abrir os detalhes de uma parcela, o sistema exibe as informacoes completas da conta, incluindo dados de vencimento, valor, status e anexos relacionados. Enquanto os dados sao carregados, o modal mostra um indicador de carregamento.
+Ao abrir os detalhes de uma parcela, o sistema exibe as informacoes completas da conta em um modal com duas areas principais:
+
+| Area | O que mostra |
+|------|---------------|
+| **Informacoes da Parcela** | Parcela atual, vencimento, contato, categoria e valor da parcela |
+| **Resumo de Pagamento** | Progresso de pagamento, valor pago, valor em aberto, quantidade de pagamentos realizados e ultimo pagamento |
+
+O modal tambem exibe abas para consultar os pagamentos e os anexos da parcela.
+
+### Pagamentos
+
+Na aba de pagamentos, o sistema lista cada pagamento registrado com as colunas:
+
+| Coluna | Descricao |
+|--------|-----------|
+| **Data** | Data do pagamento |
+| **Forma** | Forma utilizada no pagamento |
+| **Valor Base** | Valor base considerado |
+| **Ajustes** | Ajustes aplicados ao pagamento |
+| **Total Pago** | Valor total pago |
+
+Quando nao ha pagamentos registrados, o sistema exibe a mensagem de ausencia de registros.
+
+### Anexos
+
+Na aba de anexos, o sistema lista os arquivos vinculados a parcela com as colunas:
+
+| Coluna | Descricao |
+|--------|-----------|
+| **Nome** | Nome do arquivo |
+| **Tamanho** | Tamanho do arquivo |
+| **Tipo** | Tipo do arquivo |
+| **Ação** | Abrir ou baixar o anexo |
+
+Quando nao ha anexos disponiveis, o sistema exibe a mensagem de ausencia de arquivos.
 
 ## Envio de Documento
 

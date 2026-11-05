@@ -88,7 +88,7 @@ A listagem pode ser exportada nos formatos **PDF** e **Excel**.
 
 ## Relação com Lançamentos Financeiros
 
-As categorias financeiras são utilizadas ao registrar **Contas a Pagar** e **Contas a Receber**, classificando cada lançamento. Elas também aparecem na **Visão de Competência**, permitindo filtrar e analisar os lançamentos por categoria.
+As categorias financeiras são usadas ao registrar **Contas a Pagar** e **Contas a Receber**, classificando cada lançamento. Elas também aparecem na **Visão de Competência**, permitindo filtrar e analisar os lançamentos por categoria.
 
 Os lançamentos de **Contas a Receber** também podem ser criados a partir de uma **Ocorrência de venda**. Nesse caso, o sistema usa os dados da ocorrência para preencher informações como cliente, ponto de venda, valor, descrição, número do documento e observações.
 
