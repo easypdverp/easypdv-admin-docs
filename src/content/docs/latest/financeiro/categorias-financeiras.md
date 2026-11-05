@@ -23,20 +23,20 @@ Acesse **Preferências → Finanças → Categorias financeiras** para visualiza
 
 As categorias financeiras seguem uma estrutura de dois níveis:
 
-1. **Grupo** — nível superior que agrupa categorias relacionadas (ex: Despesas Fixas, Receitas Operacionais)
-2. **Categorias** — itens dentro do grupo que classificam os lançamentos (ex: Aluguel, Energia, Vendas)
+1. **Grupo** — nível superior que agrupa categorias relacionadas, como Despesas Fixas e Receitas Operacionais
+2. **Categorias** — itens dentro do grupo que classificam os lançamentos, como Aluguel, Energia e Vendas
 
 ## Como Criar um Grupo de Categorias
 
 1. Acesse **Preferências → Finanças → Categorias financeiras**
 2. Clique no botão **Adicionar**
 3. Preencha:
-   - **Nome** (obrigatório) — nome do grupo (ex: Despesas Fixas)
+   - **Nome** (obrigatório) — nome do grupo, como Despesas Fixas
    - **Situação** — Ativo ou Inativo
 4. Na seção **Categorias**, adicione as subcategorias:
    - Clique em **Adicionar** para incluir uma nova categoria
    - Informe o nome da categoria
-   - Defina se é padrão para compras e/ou vendas
+   - Defina se a categoria é padrão para compras e/ou vendas
 5. Clique em **Salvar**
 
 ## Propriedades das Categorias
@@ -47,8 +47,8 @@ Cada categoria dentro de um grupo possui:
 |-------------|-----------|
 | Nome | Nome da categoria |
 | Situação | Ativo ou Inativo |
-| Padrão Compra | Se esta categoria é aplicada automaticamente em compras |
-| Padrão Venda | Se esta categoria é aplicada automaticamente em vendas |
+| Padrão Compra | Indica se a categoria é aplicada automaticamente em compras |
+| Padrão Venda | Indica se a categoria é aplicada automaticamente em vendas |
 | Data Cadastro | Data de criação |
 | Data Atualização | Data da última modificação |
 
@@ -56,11 +56,11 @@ Cada categoria dentro de um grupo possui:
 
 1. Na listagem, clique no menu de ações do grupo desejado
 2. Selecione **Editar**
-3. Altere o nome, situação ou as categorias do grupo
+3. Altere o nome, a situação ou as categorias do grupo
 4. Dentro da edição, é possível:
    - Adicionar novas categorias
    - Editar categorias existentes
-   - Ativar/desativar categorias individualmente
+   - Ativar ou desativar categorias individualmente
    - Remover categorias
 5. Salve as alterações
 

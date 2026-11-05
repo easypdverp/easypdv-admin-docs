@@ -68,7 +68,7 @@ A página de acessos permite visualizar e gerenciar os usuários vinculados ao e
 
 Para acessar, navegue até **Espaço Contador -> Acessos** no menu lateral.
 
-O acesso a esta pagina depende da permissao de acessos do espaco do contador.
+O acesso a esta página depende da permissão de acessos do espaço do contador.
 
 ### Tabela de Acessos
 
@@ -76,7 +76,7 @@ O acesso a esta pagina depende da permissao de acessos do espaco do contador.
 |--------|-----------|
 | **Login** | Login do usuário |
 | **Situação** | Ativo ou Inativo |
-| **Perfil** | Perfil de acesso do usuário |
+| **Perfil** | Nome do perfil vinculado ao usuário |
 | **Data Atualização** | Data da última alteração |
 | **Ações** | Alterar senha, Remover ou Ativar/Desativar |
 
@@ -94,7 +94,7 @@ A página de convites permite enviar e gerenciar convites para novos contadores 
 
 Para acessar, navegue até **Espaço Contador -> Convites** no menu lateral.
 
-O acesso a esta pagina depende da permissao de gerenciamento de convites.
+O acesso a esta página depende da permissão de gerenciamento de convites.
 
 ### Enviar Novo Convite
 
@@ -110,7 +110,8 @@ Cada convite de contador fica vinculado a uma empresa. Quando existe apenas uma 
 
 | Coluna | Descrição |
 |--------|-----------|
-| **E-mail** | E-mail do convidado e login do criador do convite |
+| **E-mail** | E-mail do convidado |
+| **Perfil** | Perfil associado ao convite |
 | **Status** | Pendente, Aceito, Expirado ou Cancelado |
 | **Criado por** | Login de quem enviou o convite |
 | **Validade** | Data de expiração do convite |

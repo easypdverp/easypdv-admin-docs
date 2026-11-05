@@ -20,7 +20,9 @@ Acesse **Relatórios → Vendas** para visualizar os painéis disponíveis confo
 - Métodos de pagamento utilizados
 - Produtos não encontrados na leitura de código de barras
 - Evolução de notas fiscais de venda
+- Conversão do PDV
 - Indicadores por ponto de venda
+- Curva ABC de produtos
 
 ### Relatório de Vendas Geral
 - Quantidade vendida, bruto, descontos e líquido
@@ -50,6 +52,13 @@ Acesse **Relatórios → Vendas** para visualizar os painéis disponíveis confo
 - Conversão por ponto de venda, adquirente, forma de pagamento ou dia da semana × hora
 - Totais do filtro no rodapé
 - Exportação dos mesmos indicadores exibidos na tela
+
+### Curva ABC
+- Classificação de produtos em A, B e C conforme o faturamento
+- Resumo da participação de cada classe
+- Gráfico com a curva ABC
+- Tabela com os produtos da curva
+- Exportação da lista de produtos quando nenhuma classe está selecionada
 
 ### Produtos não encontrados
 - Produtos procurados e não encontrados nas vendas
@@ -162,3 +171,17 @@ A maior parte dos relatórios usa filtros para refinar a consulta, como:
 | **Agrupar por** | Define o tipo de agrupamento em relatórios de venda e conversão |
 
 As tabelas exibem valores numéricos alinhados à direita e, em alguns relatórios, indicadores de status aparecem com etiquetas coloridas para facilitar a leitura. Alguns painéis mostram cards de resumo acima ou abaixo da tabela, com totais do filtro inteiro.
+
+Alguns relatórios exibem filtros adicionais conforme o contexto, como:
+- Forma de pagamento
+- Situação do documento
+- Tipo de lançamento
+- Grupo de categoria financeira
+- Conta financeira
+- Ponto de venda
+- Adquirente
+- Categoria de perda
+- Status da parcela
+- Granularidade de tempo
+
+Também há relatórios que permitem exportação em PDF, Excel ou CSV mesmo quando a tabela está visível na tela, sempre com os dados do filtro aplicado.

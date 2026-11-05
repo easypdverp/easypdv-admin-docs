@@ -46,7 +46,7 @@ As visualizações **Semana** e **Dia** exibem os compromissos em uma grade de h
 
 Em todas as visualizações, os compromissos de dia inteiro aparecem primeiro e os demais seguem em ordem de horário de início. Cada compromisso é exibido na sua data de início, com a cor de fundo escolhida no cadastro.
 
-### Agenda em telas menores
+## Agenda em telas menores
 
 Em celulares e telas estreitas, a Agenda é exibida em formato compacto:
 

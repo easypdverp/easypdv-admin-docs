@@ -38,6 +38,8 @@ O dashboard exibe quatro cartoes com metricas financeiras:
 
 Os valores sao atualizados automaticamente conforme os filtros selecionados.
 
+Enquanto os dados sao carregados, o painel exibe um indicador de atualizacao.
+
 ## Grafico Comparativo
 
 Abaixo dos cartoes de resumo, um grafico apresenta a comparacao visual entre **Contas a Pagar** e **Contas a Receber** ao longo do periodo selecionado. Esse grafico facilita a identificacao de tendencias e periodos criticos.
@@ -75,7 +77,16 @@ A tabela de contas a receber funciona de forma identica a tabela de contas a pag
 
 ## Detalhes da Parcela
 
-Ao abrir os detalhes de uma parcela, o sistema exibe as informacoes completas da conta, incluindo dados de vencimento, valor, status e anexos relacionados. Enquanto os dados sao carregados, o modal mostra um indicador de carregamento.
+Ao abrir os detalhes de uma parcela, o sistema exibe as informacoes completas da conta, incluindo dados de vencimento, valor, status, pagamentos registrados e anexos relacionados. Enquanto os dados sao carregados, o modal mostra um indicador de carregamento.
+
+O modal de detalhes exibe:
+
+| Secao | Conteudo |
+|-------|----------|
+| **Informacoes da Parcela** | Numero da parcela, vencimento, contato, categoria e valor da parcela |
+| **Resumo de Pagamento** | Progresso, valor pago, valor em aberto, quantidade de pagamentos e ultimo pagamento |
+| **Pagamentos** | Lista dos pagamentos registrados |
+| **Anexos** | Lista dos arquivos enviados para a parcela |
 
 ## Envio de Documento
 
@@ -90,7 +101,7 @@ O envio de comprovante aceita os arquivos nos formatos:
 | DOC |
 | DOCX |
 
-Depois de selecionar os arquivos, o sistema permite revisar a lista antes do envio. Durante o envio, os botoes ficam desabilitados e um indicador mostra o andamento da operacao.
+Depois de selecionar os arquivos, o sistema permite revisar a lista antes do envio. Durante o envio, os botoes ficam desabilitados e um indicador mostra o andamento da operacao. O envio fica disponivel direto na tabela de parcelas.
 
 ## Layout da Pagina
 

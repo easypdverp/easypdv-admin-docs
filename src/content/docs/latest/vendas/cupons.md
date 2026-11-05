@@ -5,36 +5,53 @@ sidebar:
   order: 6
 ---
 
-Os **Cupons** permitem aplicar descontos em pedidos de venda e no PDV, com controle de validade, valor mínimo e quantidade de usos.
+Os **Cupons** permitem aplicar descontos em pedidos de venda e no PDV, com controle de validade, valor mínimo, quantidade de usos, limite por cliente e associações com categorias, pontos de venda, produtos e marcas.
 
 ## Como Criar um Cupom
 
 1. Acesse **Vendas → Cupons**
 2. Clique em **Novo Cupom**
 3. Preencha os dados do cupom:
+   - Nome
    - Código
-   - Tipo de desconto: percentual ou valor fixo
+   - Tipo de desconto: porcentagem ou valor fixo
    - Valor do desconto
+   - Valor máximo de desconto, quando o tipo for porcentagem
    - Data de validade
-   - Valor mínimo do pedido, se necessário
-   - Limite de usos, se necessário
+   - Valor mínimo da compra, se necessário
+   - Limite total de usos, se necessário
+   - Limite por usuário, se necessário
+   - Quantidade mínima de itens, se necessário
+   - Quantidade máxima de itens, se necessário
+   - Categorias, pontos de venda, produtos e marcas associados, quando aplicável
 4. Salve o cadastro
 
 ## Aplicação
 
-O cupom é informado no campo **Código do Cupom** na tela de pedido de venda. O sistema valida automaticamente as condições configuradas, como validade, valor mínimo e limite de usos.
+O cupom é informado no campo **Código do Cupom** na tela de pedido de venda. O sistema valida automaticamente as condições configuradas, como validade, valor mínimo, limites de uso, quantidade de itens e associações permitidas.
 
 ## Campos do Cupom
 
 | Campo | Descrição |
 |---|---|
+| Nome | Nome de identificação do cupom |
 | Código | Identificação usada para aplicar o cupom |
-| Tipo de desconto | Define se o desconto é percentual ou valor fixo |
+| Situação | Define se o cupom está ativo ou inativo |
+| Tipo de desconto | Define se o desconto é porcentagem ou valor fixo |
 | Valor do desconto | Valor aplicado ao pedido |
-| Data de validade | Data limite para uso do cupom |
-| Valor mínimo do pedido | Valor mínimo necessário para aceitar o cupom |
-| Limite de usos | Quantidade máxima de aplicações permitidas |
-| Limite por cliente | Quantidade máxima de usos por cliente |
+| Valor máximo de desconto | Limite máximo do desconto, usado no tipo porcentagem |
+| Valor mínimo da compra | Valor mínimo necessário para aceitar o cupom |
+| Limite por usuário | Quantidade máxima de usos por cliente |
+| Limite total de usos | Quantidade máxima de aplicações permitidas |
+| Quantidade mínima de itens | Quantidade mínima de itens exigida para uso |
+| Quantidade máxima de itens | Quantidade máxima de itens permitida para uso |
+| Categorias | Categorias vinculadas ao cupom |
+| Pontos de venda | Pontos de venda vinculados ao cupom |
+| Produtos | Produtos vinculados ao cupom |
+| Marcas | Marcas vinculadas ao cupom |
+| Data da criação | Data em que o cupom foi cadastrado |
+| Última modificação | Data da última atualização |
+| ID do cupom | Identificador interno do registro |
 
 ## Tipo de desconto
 
@@ -42,28 +59,29 @@ O campo **Tipo de desconto** define como o valor é informado no cupom.
 
 | Tipo | Descrição |
 | --- | --- |
-| Percentual | Aplica um desconto em porcentagem sobre o pedido |
-| Fixo | Aplica um desconto em valor monetário |
+| Porcentagem | Aplica um desconto em porcentagem sobre o pedido |
+| Valor fixo | Aplica um desconto em valor monetário |
 
 ## Valor do desconto
 
-O campo **Valor do desconto** aceita sempre 2 casas decimais.
+O campo **Valor do desconto** usa 2 casas decimais.
 
 | Tipo | Formato |
 | --- | --- |
-| Percentual | Número com 2 casas decimais |
-| Fixo | Valor em dinheiro com 2 casas decimais |
+| Porcentagem | Número com 2 casas decimais |
+| Valor fixo | Valor em dinheiro com 2 casas decimais |
 
 Exemplos:
 
 - **10,00** para desconto fixo de R$ 10,00
-- **15.50** para desconto de 15,50% quando o tipo é percentual
+- **15,50** para desconto de 15,50% quando o tipo é porcentagem
 
 ## Observações
 
 - O cupom pode ser usado em pedidos de venda e no PDV.
 - O sistema só aceita o cupom quando as condições cadastradas são atendidas.
 - Cupons ativos aparecem na listagem com identificação de status.
+- A tela de detalhes mostra as regras do cupom, os vínculos cadastrados e o uso acumulado.
 
 Quando o produto ou item não possui código de barras informado, o sistema exibe o campo em branco nos detalhes e nas telas de seleção relacionadas.
 

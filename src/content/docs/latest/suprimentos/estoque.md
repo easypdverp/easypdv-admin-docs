@@ -309,3 +309,299 @@ Os itens com quantidade diferente da quantidade padrão exibem o indicador **Nã
 | Marcar como separado | Confirma a separação do item com a quantidade informada |
 
 Durante a separação, o sistema mantém o valor informado até a confirmação do item.
+
+## Ordens de Compra
+
+As ordens de compra são criadas, editadas, aprovadas, canceladas e exportadas na área de Suprimentos. A lista mostra itens, fornecedor, empresa, situação, valores, anexos e movimentações vinculadas.
+
+### Consulta e listagem
+
+A página de ordens de compra lista os pedidos por situação e permite filtrar por fornecedor, empresa, datas e situação. A visualização em linha mostra o resumo da ordem, os itens e os lançamentos ligados a ela.
+
+| Campo | Descrição |
+|------|-----------|
+| Situação | Em aberto, aprovado, faturado ou cancelado |
+| Fornecedor | Fornecedor da ordem |
+| Empresa | Empresa responsável |
+| Valor | Total da ordem |
+| Origem | Documento que gerou a ordem |
+| Operações | Lançamentos de estoque, contas a pagar ou nota de entrada ligados à ordem |
+
+### Itens da ordem
+
+Cada item da ordem mostra:
+
+| Campo | Descrição |
+|------|-----------|
+| Descrição | Nome do produto |
+| Código de barras | GTIN/EAN quando informado |
+| SKU / SKU Forn. | Código interno e código do fornecedor |
+| QTD | Quantidade comprada na unidade do produto |
+| Preço un. | Preço unitário informado |
+| IPI / ICMS | Tributos do item quando preenchidos |
+| Total | Total do item |
+| Estoque | Informação de estoque do produto |
+
+### Cadastro e edição
+
+Na criação e na edição da ordem de compra, o sistema permite informar:
+
+| Campo | Descrição |
+|------|-----------|
+| Empresa | Empresa da ordem |
+| Fornecedor | Fornecedor principal |
+| Data | Data da ordem |
+| Condição de pagamento | Condição financeira |
+| Observações | Texto livre |
+| Endereço | Endereço da ordem, preenchido a partir do fornecedor quando disponível |
+
+Os itens podem ser incluídos, editados e removidos, e o sistema mantém os dados de produto, quantidade, preço e tributos.
+
+### Anexos
+
+A ordem de compra permite anexar arquivos. Os anexos são listados com nome, tipo e data de última modificação. É possível incluir e remover anexos conforme a permissão do usuário.
+
+### Operações vinculadas
+
+A ordem de compra pode ter operações ligadas a ela:
+
+| Operação | Uso |
+|----------|-----|
+| Lançar estoque | Gera entrada de estoque a partir da ordem |
+| Estornar estoque | Reverte a entrada de estoque vinculada |
+| Lançar contas a pagar | Gera títulos financeiros vinculados |
+| Estornar contas a pagar | Reverte os títulos vinculados |
+| Gerar nota de entrada | Cria a nota fiscal de entrada a partir da ordem |
+
+As operações aparecem conforme o status da ordem e a existência de operações anteriores.
+
+## Necessidade de compra
+
+A tela de **Necessidade de compra** mostra os produtos que precisam ser comprados com base na origem escolhida.
+
+### Filtros
+
+Os filtros ficam em um card e permitem combinar origem, ponto de venda, períodos, categorias, produtos e fornecedor padrão.
+
+| Campo | Descrição |
+|------|-----------|
+| Origem | Define se o cálculo considera **Planograma** ou **Vendas** |
+| Ponto de venda | Usado quando a origem é planograma |
+| Considerar saídas dos últimos | Número de dias usado para o cálculo na origem de vendas |
+| Calcular estoque para | Número de dias para cobrir com a compra |
+| Pontos de venda | Lista de PDVs considerados no cálculo de vendas |
+| Categorias | Filtra por categorias de produtos |
+| Produtos | Filtra por produtos específicos |
+| Fornecedor padrão | Limita o cálculo a um fornecedor |
+| Apenas produtos zerados | Mostra apenas itens sem saldo |
+| Apenas produtos em excesso | Mostra apenas itens com excesso de estoque |
+| Com venda nos últimos | Limita a produtos com saída recente |
+
+### Agrupamento e lista
+
+A lista pode ser agrupada por produto ou fornecedor. Cada grupo mostra o resumo de quantidade e valor e permite selecionar itens para revisão. O sistema exibe também o total geral da compra calculada.
+
+### Revisão e geração de ordens
+
+Na revisão, o sistema organiza os itens por fornecedor e permite ajustar quantidade, custo, observações e fornecedor de cada item antes de gerar as ordens de compra.
+
+| Campo | Descrição |
+|------|-----------|
+| Quantidade | Quantidade a comprar |
+| Custo unitário | Custo do item na compra |
+| Fornecedor | Fornecedor do item |
+| Data prevista | Data de entrega prevista |
+| Condição de pagamento | Condição financeira da ordem |
+| Observações | Texto livre da ordem |
+
+Se houver itens sem fornecedor, eles ficam separados para definição manual do fornecedor antes da geração das ordens.
+
+### Ordens criadas
+
+Depois da geração, o sistema exibe as ordens criadas e os itens que ficaram de fora por falta de fornecedor. A partir daí é possível aprovar as ordens em lote ou voltar para definir o fornecedor dos itens pendentes.
+
+## Conferência de Recebimento de NF-e
+
+Na NF-e de entrada, a conferência de recebimento organiza os itens da nota para validação antes de entrarem no estoque.
+
+### Itens da conferência
+
+A tabela de conferência mostra:
+
+| Campo | Descrição |
+|------|-----------|
+| Produto | Descrição e código do item |
+| Qtd. da nota | Quantidade prevista na nota |
+| Qtd. recebida | Quantidade conferida |
+| Motivo | Motivo da divergência, quando houver |
+| Conferido | Indica se o item já foi validado |
+
+Os itens divergentes podem ser ajustados linha por linha. Quando a quantidade conferida não coincide com a quantidade da nota, o sistema pede um motivo de divergência.
+
+### Finalização
+
+Ao concluir a conferência, o sistema valida se todos os itens estão conferidos e se as divergências foram informadas corretamente. A conferência pode ser consultada depois pela própria nota.
+
+## NF-e de Entrada
+
+A lista de notas fiscais de entrada mostra as notas importadas, recebidas ou em conferência. A página de detalhes exibe dados da nota, itens, anexos, ocorrências e operações relacionadas.
+
+### Ações na nota
+
+| Ação | Descrição |
+|------|-----------|
+| Autorizar nota fiscal | Envia a autorização da nota |
+| Recusar nota | Registra a recusa da nota |
+| Reemitir nota fiscal | Tenta novamente a emissão |
+| Importar nota | Importa a nota de entrada |
+| Cancelar | Cancela a nota de entrada |
+| Remover | Remove a nota e as operações ligadas |
+| Lançar estoque | Gera entrada de estoque |
+| Estornar estoque | Reverte o estoque lançado |
+| Lançar contas a pagar | Gera contas a pagar ligadas à nota |
+| Estornar contas | Reverte as contas geradas |
+| Ver recebimento | Abre a conferência de recebimento |
+| Ver nota de entrada | Abre os detalhes da nota importada |
+
+### Importação
+
+A importação pode ser feita por chave de acesso ou por arquivo XML. O sistema mostra uma pré-visualização da nota, com emitente, data, valor total e itens, antes da importação final.
+
+### Ocorrências
+
+As ocorrências da nota exibem registros de status, data e descrição. A exportação da lista segue os mesmos filtros aplicados na tela.
+
+### Boletos e lançamentos
+
+Quando a nota gera títulos financeiros ou lançamentos de estoque, o sistema mostra os vínculos na própria tela de detalhes e permite consultar ou estornar as operações relacionadas.
+
+## Pedido de compra
+
+O pedido de compra aparece nas telas de compra e de suprimentos como documento de origem ou destino. O sistema mostra dados de fornecedor, empresa, itens, lotes e anexos.
+
+### Itens e lotes
+
+Ao vincular um pedido de compra a uma entrada, o sistema usa o código de barras e o SKU do fornecedor para localizar o item correspondente. Os lotes são lançados por item e podem ser associados ao produto certo antes da confirmação.
+
+### Resumo e totais
+
+O sistema calcula:
+
+| Campo | Descrição |
+|------|-----------|
+| Itens | Quantidade de linhas do pedido |
+| Quantidade | Quantidade total de produtos |
+| Total de itens | Soma dos itens antes de descontos |
+| IPI | Total de impostos do pedido |
+| Descontos | Descontos aplicados |
+| Total final | Valor final do pedido |
+
+### Parcelas e pagamentos
+
+O pedido de compra pode exibir parcelas e resumo de pagamentos conforme a condição escolhida.
+
+## Inventário e Ajustes
+
+A área de inventário reúne operações de entrada, saída, transferência, ajuste e conferência. Cada tela exibe o saldo do produto, depósitos relacionados e ações de movimentação.
+
+### Saldo por depósito
+
+O painel do produto mostra o saldo por depósito, com destaque para o depósito selecionado e os demais depósitos vinculados ao item.
+
+| Campo | Descrição |
+|------|-----------|
+| Disponível | Quantidade livre para uso |
+| Reservado | Quantidade reservada |
+| Físico | Quantidade física no depósito |
+| Mínimo | Saldo mínimo configurado |
+| Ideal | Saldo ideal configurado |
+
+### Ajuste de estoque
+
+O ajuste permite informar quantidade, data, observações e lotes. O sistema valida o total dos lotes e mantém os saldos coerentes com a movimentação informada.
+
+### Entrada e saída
+
+As entradas e saídas podem ser feitas com quantidade direta ou por lotes. Quando há lotes, o sistema exige as quantidades e as datas de validade conforme o tipo de operação.
+
+### Transferência
+
+A transferência entre depósitos move a quantidade do depósito de origem para o depósito de destino, mantendo a rastreabilidade da movimentação.
+
+## Reservas
+
+A aba de reservas do produto mostra quantidades comprometidas em pedidos e operações vinculadas. A consulta ajuda a identificar o que está disponível para venda e o que já está separado para outras rotinas.
+
+| Campo | Descrição |
+|------|-----------|
+| Pedido | Documento que gerou a reserva |
+| Quantidade | Quantidade reservada |
+| Origem | Operação que gerou a reserva |
+| Situação | Status da reserva |
+
+## Dashboard de Estoque
+
+O dashboard de estoque mostra alertas e atalhos para produtos com saldo crítico, lotes próximos do vencimento, estoques negativos e movimentações recentes.
+
+### Alertas
+
+| Alerta | Descrição |
+|-------|-----------|
+| Estoque mínimo | Produto abaixo do mínimo |
+| Lote próximo do vencimento | Lote com validade próxima |
+| Estoque negativo | Saldo abaixo de zero |
+| Produto sem custo | Produto com saldo sem custo médio |
+
+### Ações rápidas
+
+| Ação | Uso |
+|------|-----|
+| Ajustar estoque | Abre a tela de ajuste |
+| Transferir | Abre a transferência entre depósitos |
+| Nova entrada | Inicia uma entrada manual |
+| Nova saída | Inicia uma saída manual |
+| Conferir estoque | Abre a conferência de estoque |
+
+## Pedidos, separação e abastecimento
+
+As rotinas de separação e abastecimento usam a mesma base de tarefa e mostram o acompanhamento por status, histórico e itens pendentes.
+
+### Status das tarefas
+
+| Status | Descrição |
+|--------|-----------|
+| Em andamento | A tarefa está aberta |
+| Concluído | A tarefa foi finalizada |
+| Cancelado | A tarefa foi cancelada |
+
+### Detalhe da tarefa
+
+O detalhe mostra:
+
+| Campo | Descrição |
+|------|-----------|
+| Tipo | Separação, abastecimento ou abastecimento combinado |
+| Picklist | Picklist vinculada |
+| PDV | Ponto de venda de origem |
+| Situação | Status atual da tarefa |
+| Histórico | Eventos da operação |
+| Itens | Produtos da tarefa |
+
+### Conclusão da tarefa
+
+Ao finalizar, o sistema valida os itens e mostra os pendentes antes de concluir. Em abastecimento combinado, a conferência da quantidade no ponto de venda faz parte do fluxo.
+
+## Permissões gerais
+
+Algumas ações da área de suprimentos dependem da permissão do usuário.
+
+| Permissão | Uso |
+|-----------|-----|
+| Suprimentos → Ordens de compra | Criar, editar, aprovar, cancelar, remover e exportar ordens |
+| Suprimentos → Notas fiscais de entrada | Importar, autorizar, recusar, cancelar e exportar notas |
+| Suprimentos → Recebimento de mercadorias | Abrir, continuar, consultar e estornar conferências |
+| Suprimentos → Picking | Criar, editar, remover e exportar picklists |
+| Suprimentos → Ajustes de estoque | Ajustar estoque, transferir e exportar movimentos |
+| Suprimentos → Conferência de estoque | Iniciar, continuar, finalizar e exportar conferências |
+| Suprimentos → Lotes | Gerenciar lotes e validades |
+
