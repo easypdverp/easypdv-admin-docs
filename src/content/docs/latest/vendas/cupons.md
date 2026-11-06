@@ -59,6 +59,17 @@ Exemplos:
 - **10,00** para desconto fixo de R$ 10,00
 - **15.50** para desconto de 15,50% quando o tipo é percentual
 
+## Filtros da listagem
+
+Na listagem de cupons, o filtro de período usa a data inicial no começo do dia e a data final no fim do dia. Isso permite pesquisar cupons por intervalo de datas com precisão.
+
+| Campo | Descrição |
+|---|---|
+| Data inicial | Data de início do período de busca |
+| Data final | Data de fim do período de busca |
+| Situação | Filtra cupons ativos ou inativos |
+| Código | Pesquisa pelo código do cupom |
+
 ## Observações
 
 - O cupom pode ser usado em pedidos de venda e no PDV.
