@@ -309,3 +309,15 @@ Os itens com quantidade diferente da quantidade padrão exibem o indicador **Nã
 | Marcar como separado | Confirma a separação do item com a quantidade informada |
 
 Durante a separação, o sistema mantém o valor informado até a confirmação do item.
+
+### Produtos do fornecedor na ordem de compra
+
+Na inclusão e na edição de itens da ordem de compra, o campo de produto pode ficar restrito aos itens vinculados ao fornecedor da ordem. Quando o fornecedor está definido, o sistema filtra a busca por esse fornecedor e mostra a opção **Mostrar apenas produtos deste fornecedor**.
+
+| Situação | Comportamento |
+|----------|---------------|
+| Fornecedor definido e opção marcada | A busca mostra apenas os produtos vinculados ao fornecedor da ordem |
+| Fornecedor definido e opção desmarcada | A busca mostra todos os produtos |
+| Fornecedor não definido | A opção fica desabilitada até a seleção do fornecedor |
+
+O ícone de informação exibe a orientação sobre o uso do filtro.

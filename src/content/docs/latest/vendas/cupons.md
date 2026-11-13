@@ -188,10 +188,55 @@ Na lista de pedidos de venda, a coluna **Ponto de Venda** mostra o nome do ponto
 
 Na lista de notas fiscais de saída, a coluna **Destinatário** mostra o nome do destinatário do documento.
 
+### NFC-e
+
+Na tela de detalhes da NFC-e, o sistema organiza as informações em abas de **Produtos e pagamento** e **Detalhes**.
+
+Na aba **Produtos e pagamento**, você visualiza:
+
+- Lista de produtos
+- Totais da nota
+- Pagamentos e parcelas
+
+A seção **Totais da nota** mostra o valor total em destaque e pode exibir também o total resumido no cabeçalho.
+
+À direita da tela, o sistema exibe uma prévia do cupom fiscal com:
+
+| Campo | Descrição |
+|---|---|
+| Situação | Status da NFC-e |
+| Emitente | Nome do emitente |
+| Número | Número do documento |
+| Série | Série da NFC-e |
+| Data | Data de emissão ou vencimento exibida na prévia |
+| Itens | Produtos listados com quantidade, unidade e valor |
+| Produtos | Total dos produtos |
+| Desconto | Valor do desconto |
+| Frete | Valor do frete, quando informado |
+| Seguro | Valor do seguro, quando informado |
+| Outras despesas | Valores adicionais, quando informados |
+| Total | Valor total da NFC-e |
+| Forma de pagamento | Meios de pagamento e valores correspondentes |
+
+A prévia é apenas uma consulta e não substitui o DANFE.
+
 ### Ocorrências
 
 Na lista de ocorrências, a coluna **Itens** mostra a quantidade de itens vinculados a cada ocorrência.
 
 ### Planograma
 
-Na tela de detalhes do planograma, a lista de itens exibe a coluna de miniatura para identificação visual dos produtos.
+Na tela de detalhes do planograma, a lista de itens pode exibir seleção por linha e ações em lote. O sistema permite:
+
+- Selecionar produtos da página
+- Definir quantidades em lote
+- Ativar ou inativar itens
+- Remover itens, quando o planograma está em rascunho
+
+Na lista de itens do planograma, a coluna de descrição usa um texto mais curto para facilitar a visualização, e algumas colunas ficam ocultas em telas menores.
+
+Também é possível editar as quantidades de um item diretamente na linha, por meio de um modal específico para quantidade desejada e mínimo crítico.
+
+### NFC-e e emissão fiscal
+
+Na edição de itens de nota fiscal, a seleção de produto preenche os dados principais do item, como descrição, código, unidade de medida, código de barras e preço unitário. O sistema mantém a consistência dos dados do item conforme o produto escolhido.
