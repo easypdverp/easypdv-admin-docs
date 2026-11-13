@@ -104,6 +104,15 @@ A lista usa visualização em formato de tabela simples e mostra o status com et
 | Exportar | Exporta a lista de notificações em formato PDF ou CSV |
 | Atualizar | Recarrega a lista de notificações |
 
+### Ações em lote
+
+Quando mais de uma notificação está selecionada, o sistema permite executar ações em lote sobre os itens marcados.
+
+| Ação | Descrição |
+|------|-----------|
+| Marcar como lidas | Altera o status das notificações selecionadas para lida |
+| Remover selecionadas | Exclui as notificações selecionadas |
+
 ## Notificações Push
 
 A área de **Notificações Push** reúne as notificações enviadas para os aplicativos do sistema. O acesso depende da permissão de notificações por push. A lista mostra as informações principais de cada item:

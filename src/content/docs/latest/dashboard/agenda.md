@@ -32,27 +32,36 @@ O dia atual aparece destacado com um círculo colorido em todas as visualizaçõ
 
 A visualização **Mês** exibe uma grade com os dias do mês organizados de domingo a sábado. Os dias que pertencem aos meses anterior e seguinte aparecem esmaecidos.
 
-- Cada dia mostra até três compromissos. Compromissos com horário exibem a hora de início antes da descrição.
-- Quando o dia tem mais de três compromissos, aparece a indicação **mais N...**. Clique nela para abrir a lista **Todos os compromissos**, com todos os compromissos do dia.
+- Cada dia mostra os compromissos do dia inteiro em sequência.
+- Quando há compromissos com horário, eles aparecem na programação do dia ao tocar no número do dia.
+- Clicar no número de um dia abre a programação diária daquele dia.
 - Clicar em uma área vazia do dia abre o cadastro de um novo compromisso já com essa data preenchida.
 
 ### Semana e Dia
 
 As visualizações **Semana** e **Dia** exibem os compromissos em uma grade de horários, de 00:00 às 23:00, no fuso **GMT-03**. A **Semana** mostra os sete dias, de domingo a sábado, e o **Dia** mostra apenas a data selecionada.
 
-- A linha **Todo o dia**, no topo da grade, reúne os compromissos marcados como dia inteiro, com até três por dia e a indicação **mais N...** para os demais.
-- Os demais compromissos aparecem na linha da hora em que começam, com até dois por horário. Quando há mais, clique em **mais N...** para ver a lista completa.
+- A linha **Todo o dia**, no topo da grade, reúne os compromissos marcados como dia inteiro.
+- Os demais compromissos aparecem na linha da hora em que começam.
 - Clicar em um horário vazio abre o cadastro de um novo compromisso já com a data e o horário preenchidos: o início na hora clicada e o término uma hora depois.
 
 Em todas as visualizações, os compromissos de dia inteiro aparecem primeiro e os demais seguem em ordem de horário de início. Cada compromisso é exibido na sua data de início, com a cor de fundo escolhida no cadastro.
 
-### Agenda em telas menores
+### Programação diária
+
+Ao abrir a programação de um dia, o sistema mostra apenas os compromissos com horário daquele dia.
+
+- Os compromissos aparecem em ordem de horário de início.
+- Quando existe um intervalo livre entre compromissos, a tela indica esse intervalo.
+- Cada compromisso mostra o horário de início e término, além da descrição.
+
+## Agenda em telas menores
 
 Em celulares e telas estreitas, a Agenda é exibida em formato compacto:
 
 - O calendário mostra sempre o mês, e as setas ao lado do título avançam ou voltam um mês.
 - Os dias que têm compromissos exibem um pequeno marcador abaixo do número.
-- Toque em um dia para selecioná-lo. A lista **Compromissos do dia** abaixo do calendário mostra os compromissos da data selecionada, com o horário de início quando houver. Se não houver compromissos, aparece a mensagem **Nenhum compromisso.**
+- Toque em um dia para ver os compromissos da data selecionada na lista **Compromissos do dia** abaixo do calendário. Se não houver compromissos com horário, aparece a mensagem **Nenhum compromisso com horário neste dia.**
 - O botão **Adicionar Compromisso** ocupa toda a largura da tela e abre o cadastro já com a data selecionada.
 
 ## Como criar um compromisso
@@ -94,7 +103,7 @@ Ao salvar, o sistema exibe a mensagem **Compromisso adicionado com sucesso** e o
 | Como o cadastro foi aberto | Valores iniciais |
 |----------------------------|------------------|
 | Botão **Adicionar Compromisso** | Data atual, com **O dia todo** marcado |
-| Clique em um dia da visualização **Mês** | Data clicada, com **O dia todo** marcado |
+| Clique no número de um dia da visualização **Mês** | Data clicada, com **O dia todo** marcado |
 | Clique em um horário das visualizações **Semana** ou **Dia** | Data clicada, com **O dia todo** desmarcado, início na hora clicada e término uma hora depois |
 | Botão **Adicionar Compromisso** em telas menores | Dia selecionado no calendário, com **O dia todo** marcado |
 

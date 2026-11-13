@@ -109,6 +109,7 @@ Quando a etiqueta tem código de barras, o sistema usa o formato configurado no 
 | Estoque | Regras gerais de estoque |
 | Separação | Parâmetros do processo de separação |
 | Emissão Fiscal | Configurações para NF-e e NFC-e |
+| Contas Bancárias | Cadastro das contas bancárias da empresa, com banco, agência, conta, dígito e conta financeira vinculada |
 
 ### Empresas
 
@@ -204,6 +205,22 @@ A tela de **Certificado Digital** permite enviar e remover o arquivo do certific
 | Arquivo do certificado | Arquivo utilizado na emissão de NF-e e NFC-e |
 | Senha | Senha de acesso ao certificado |
 | Remover arquivo anterior | Indica se o arquivo cadastrado será substituído no envio |
+
+### Contas Bancárias
+
+A tela de **Contas Bancárias** reúne os dados das contas usadas no financeiro.
+
+| Campo | Descrição |
+|------|-----------|
+| Nome | Nome da conta bancária |
+| Agência | Número da agência, com 4 ou 5 dígitos |
+| Dígito da agência | Dígito da agência, com 1 dígito |
+| Conta | Número da conta, com 6 a 11 dígitos |
+| Tipo | Tipo da conta bancária |
+| Banco | Banco vinculado à conta |
+| Conta financeira | Conta financeira usada no controle interno |
+
+O banco é selecionado por meio de uma lista de bancos cadastrados. A conta financeira define a ligação da conta bancária com o controle financeiro do sistema.
 
 ### Gateways de Pagamento
 
