@@ -119,15 +119,28 @@ Acesse **Relatórios → Financeiro** para visualizar:
 - DRE
 - Resultado por PDV
 - Fluxo de caixa realizado e projetado
+- Comparação entre taxa negociada e taxa cobrada por adquirente
 
 ### Caixa
 - Resumo de receitas e despesas por categoria
 - Resumo por cliente ou fornecedor
+- Lançamentos por conta do plano
+- Filtros por conta financeira e por conta do plano
 
 ### Contas
 - Contas a pagar por período, status, fornecedor e categoria
 - Contas a receber por período, status, cliente e categoria
 - Recebimentos
+
+### Taxa negociada × cobrada
+- Comparação entre a taxa do contrato e a taxa cobrada pela adquirente
+- Bruto, taxa negociada, líquido esperado, depositado e diferença
+- Taxa cobrada em reais e em percentual
+- Diferença em pontos percentuais
+- Situação por adquirente e empresa
+- Conta do plano da diferença
+- Dias em aberto e dias fechados do período
+- Link para os dias da adquirente quando a permissão estiver disponível
 
 ## Exportação
 
@@ -149,7 +162,7 @@ A maior parte dos relatórios usa filtros para refinar a consulta, como:
 | **Cliente** | Filtra resultados por cliente |
 | **Fornecedor** | Filtra resultados por fornecedor |
 | **Produto** | Filtra resultados por produto |
-| **Categoria** | Filtra resultados por categoria |
+| **Categoria / plano de contas** | Filtra resultados por conta do plano |
 | **Depósito / estoque** | Filtra resultados por local de estoque |
 | **Ponto de venda** | Filtra resultados por PDV |
 | **Operador** | Filtra resultados por operador |

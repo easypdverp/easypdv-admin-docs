@@ -33,6 +33,7 @@ Antes de iniciar as operações, configure obrigatoriamente:
 | Configuração | Descrição |
 |-------------|-----------|
 | Contas Financeiras | Caixas e contas bancárias do estabelecimento |
+| Plano de Contas | Estrutura de contas usada no controle financeiro e na organização de receitas e despesas |
 | Bancos | Cadastro de bancos |
 | Contas Bancárias | Dados da conta bancária, incluindo agência, número da conta e dígitos |
 | Gateways de Pagamento | Integrações com maquininhas, meios de pagamento e cobrança |
@@ -399,6 +400,80 @@ A tela de **Natureza de Operação** organiza as configurações fiscais por aba
 
 Em **Configurações da conta**, no menu do usuário, a aba **Notificações** lista os tipos de notificação com a descrição de cada um. Desligue os tipos que não quer receber no sino. As notificações urgentes chegam sempre, mesmo de um tipo desligado. Veja mais em [Notificações](../notificacoes/notificacoes/).
 
-## Acesso por permissão
+### Plano de contas
+
+Em **Preferências › Plano de contas** fica a estrutura usada para organizar contas financeiras em formato de árvore. O cadastro trabalha com códigos, níveis e contas sintéticas e analíticas.
+
+A tela mostra:
+
+| Elemento | Descrição |
+|----------|-----------|
+| Busca | Pesquisa por código ou nome |
+| Expandir tudo / Recolher tudo | Abre ou fecha as contas sintéticas da árvore |
+| Exportar | Gera exportação em PDF ou XLSX |
+| Adicionar | Cria uma conta no nível raiz |
+| Nova conta dentro | Cria uma conta filha dentro de uma conta sintética |
+| Mover | Troca a conta de posição na árvore |
+| Inativar / Reativar | Altera a situação da conta |
+| Excluir | Remove a conta, quando permitido |
+
+A busca mostra as contas encontradas e também o caminho até cada uma delas. Quando a busca está ativa, os controles de expandir e recolher ficam desabilitados.
+
+#### Estrutura do plano de contas
+
+| Campo | Descrição |
+|------|-----------|
+| Código | Código da conta, gerado pelo sistema |
+| Nome | Nome da conta |
+| Sintética/analítica | Indica se a conta agrupa outras contas ou se recebe lançamentos |
+| Tipo | **Receita** ou **Despesa** |
+| Linha da DRE | Linha usada no demonstrativo de resultado |
+| Conta-mãe | Conta acima na hierarquia |
+
+O plano trabalha com até 5 níveis. Contas sintéticas agrupam outras contas e não recebem lançamentos. Contas analíticas recebem lançamentos e podem ser associadas à linha da DRE.
+
+#### Conta vazia
+
+Quando não há contas cadastradas, a tela exibe a opção de criar a primeira conta ou gerar um modelo padrão.
+
+| Ação | Descrição |
+|------|-----------|
+| **Criar a primeira conta** | Abre o cadastro da conta raiz |
+| **Gerar modelo padrão** | Cria uma estrutura inicial com contas de receitas e despesas |
+
+#### Cadastro de conta
+
+| Campo | Descrição |
+|------|-----------|
+| Nome | Nome da conta |
+| Tipo | Tipo da conta raiz: **Receita** ou **Despesa** |
+| Linha da DRE | Linha associada à conta analítica |
+| Código | Identificador da conta, exibido no resumo |
+| Conta-mãe | Conta acima na hierarquia |
+
+Ao criar uma conta filha dentro de uma conta sintética, o sistema mostra o caminho da conta-mãe e o código que a nova conta recebe. Quando a conta é sintética, ela apenas agrupa contas; quando é analítica, ela pode receber lançamento.
+
+#### Regras de uso
+
+| Situação | Descrição |
+|----------|-----------|
+| Conta inativa | Não aceita nova conta filha até ser reativada |
+| Nível máximo | O plano trabalha com 5 níveis |
+| Conta usada | Contas em uso não são excluídas quando a regra não permite; nesses casos, a ação de inativar é a alternativa disponível |
+| Conta sintética | Só agrupa contas filhas |
+| Conta analítica | Recebe lançamentos e pode ter linha da DRE |
+
+#### Movimento de conta
+
+A ação de mover permite trocar a conta de posição na árvore e alterar o caminho do código conforme o novo destino.
+
+| Situação | Descrição |
+|----------|-----------|
+| Primeiro nível | A conta vira raiz do tipo definido |
+| Conta-mãe analítica | Ao receber uma filha, passa a agrupar contas |
+| Conta sintética | Leva junto as contas internas na mesma ordem |
+| Limite de níveis | O sistema bloqueia destinos que ultrapassam 5 níveis |
+
+### Acesso por permissão
 
 As seções de **Preferências** aparecem conforme a permissão do usuário. Quando o usuário não tem acesso a uma opção, ela não é exibida no menu nem nas rotas da tela.

@@ -309,3 +309,15 @@ Os itens com quantidade diferente da quantidade padrão exibem o indicador **Nã
 | Marcar como separado | Confirma a separação do item com a quantidade informada |
 
 Durante a separação, o sistema mantém o valor informado até a confirmação do item.
+
+## Pedido de compra
+
+Na tela de pedido de compra, o sistema usa o plano de contas para classificação financeira e exibe a categoria com código e nome quando disponível.
+
+| Campo | Descrição |
+|------|-----------|
+| Plano de contas | Exibe o código e o nome da categoria financeira vinculada ao pedido |
+| Categoria financeira | Campo usado para selecionar a classificação financeira da compra |
+| Tipo permitido | Para esse fluxo, a seleção fica restrita a categorias do tipo **Despesa** |
+
+Na inclusão e na edição do pedido, a escolha da categoria financeira segue esse filtro. Nos detalhes do pedido, o sistema mostra o plano de contas no lugar da descrição simples da categoria.

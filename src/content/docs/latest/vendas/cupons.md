@@ -188,6 +188,21 @@ Na lista de pedidos de venda, a coluna **Ponto de Venda** mostra o nome do ponto
 
 Na lista de notas fiscais de saída, a coluna **Destinatário** mostra o nome do destinatário do documento.
 
+### NFC-e
+
+Na tela de emissão da NFC-e, o endereço do destinatário inclui os campos de CEP, rua, número, bairro, cidade e UF. Esses campos ficam disponíveis para preenchimento no cadastro da nota.
+
+As observações da NFC-e ficam organizadas em dois campos:
+
+| Campo | Descrição |
+|---|---|
+| Informações complementares | Texto exibido no cupom fiscal para o consumidor |
+| Informações Adicionais ao Fisco | Texto destinado ao Fisco no documento fiscal |
+
+Na parte de pagamentos, a seleção de categoria financeira considera somente categorias compatíveis com a natureza da operação.
+
+Ao carregar os dados de um pedido de venda para NFC-e, o sistema usa a data e hora da transmissão no preenchimento da nota e vincula a empresa do ponto de venda para série, número e natureza.
+
 ### Ocorrências
 
 Na lista de ocorrências, a coluna **Itens** mostra a quantidade de itens vinculados a cada ocorrência.
