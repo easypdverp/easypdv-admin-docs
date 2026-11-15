@@ -77,6 +77,16 @@ A tabela de contas a receber funciona de forma identica a tabela de contas a pag
 
 Ao abrir os detalhes de uma parcela, o sistema exibe as informacoes completas da conta, incluindo dados de vencimento, valor, status e anexos relacionados. Enquanto os dados sao carregados, o modal mostra um indicador de carregamento.
 
+No detalhe da parcela, o sistema mostra tambem o **Plano de contas**, com o codigo e o nome da categoria quando existem essas informacoes.
+
+| Campo | Descricao |
+|-------|-----------|
+| **Plano de contas** | Codigo e nome do plano vinculado a parcela |
+| **Vencimento** | Data de vencimento da parcela |
+| **Valor** | Valor bruto da parcela |
+| **Status** | Situacao atual da parcela |
+| **Anexos** | Arquivos relacionados a parcela |
+
 ## Envio de Documento
 
 O envio de comprovante aceita os arquivos nos formatos:

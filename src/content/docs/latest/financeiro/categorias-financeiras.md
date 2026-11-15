@@ -88,7 +88,15 @@ A listagem pode ser exportada nos formatos **PDF** e **Excel**.
 
 ## Relação com Lançamentos Financeiros
 
-As categorias financeiras são utilizadas ao registrar **Contas a Pagar** e **Contas a Receber**, classificando cada lançamento. Elas também aparecem na **Visão de Competência**, permitindo filtrar e analisar os lançamentos por categoria.
+As categorias financeiras são utilizadas ao registrar **Contas a Pagar** e **Contas a Receber**, classificando cada lançamento. Elas também aparecem na **Visão de Competência**, permitindo filtrar e analisar os lançamentos por plano de contas.
+
+Nos lançamentos de contas, o campo aparece como **Plano de contas**. Para despesas, o sistema mostra contas do plano do tipo despesa; para receitas, mostra contas do tipo receita. Nos demais contextos financeiros, a lista de contas pode considerar apenas as opções compatíveis com o tipo do lançamento.
+
+No fluxo de **Movimentação de Caixa**, o plano de contas também é usado para classificar entradas e saídas. Quando a movimentação é do tipo entrada, o sistema mostra contas de receita; quando é do tipo saída, mostra contas de despesa. Se o tipo da movimentação mudar, o plano de contas informado é validado de acordo com o novo tipo.
+
+Em conciliações bancárias, o plano de contas aparece na criação de lançamentos manuais, na antecipação de parcelas e no fechamento do dia da adquirente. Nesses casos, a seleção considera apenas contas ativas e compatíveis com o tipo do lançamento.
+
+Na listagem de **Fluxo de Caixa** e em relatórios financeiros, o nome da conta aparece com seu código quando disponível, facilitando a identificação.  
 
 Os lançamentos de **Contas a Receber** também podem ser criados a partir de uma **Ocorrência de venda**. Nesse caso, o sistema usa os dados da ocorrência para preencher informações como cliente, ponto de venda, valor, descrição, número do documento e observações.
 
